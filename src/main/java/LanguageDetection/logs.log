@@ -1,0 +1,2402 @@
+2023-04-25 12:04:23 INFO  LangdetectFromUnicode:136 - Started..!
+2023-04-25 12:04:23 INFO  LangdetectFromUnicode:138 - File reading
+2023-04-25 12:04:23 INFO  LangdetectFromUnicode:122 - language detection Process started....
+2023-04-25 12:04:23 INFO  LangdetectFromUnicode:69 - word Splitting done....
+2023-04-25 12:04:23 INFO  LangdetectFromUnicode:78 - words send to LATIN
+2023-04-25 12:04:23 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-25 12:04:23 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 12:04:29 INFO  NgramModel:26 - convert into byte format
+2023-04-25 12:05:08 INFO  NgramModel:30 - model ready
+2023-04-25 12:05:12 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-25 12:05:12 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-25 12:05:13 INFO  LATINlanguageClass:49 - English detected
+2023-04-25 12:05:13 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-25 12:05:13 INFO  LATINlanguageClass:49 - French detected
+2023-04-25 12:05:13 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-25 12:05:13 INFO  LATINlanguageClass:49 - German detected
+2023-04-25 12:05:13 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-25 12:05:13 INFO  LangdetectFromUnicode:94 - words send to CYRILLIC
+2023-04-25 12:05:13 INFO  CyrillicLanguageClass:23 - Model is Loading...
+2023-04-25 12:05:13 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 12:05:18 INFO  NgramModel:26 - convert into byte format
+2023-04-25 12:05:20 INFO  NgramModel:30 - model ready
+2023-04-25 12:05:20 INFO  CyrillicLanguageClass:27 - Model loaded!
+2023-04-25 12:05:20 INFO  CyrillicLanguageClass:35 - Detecting Language..
+2023-04-25 12:05:20 INFO  CyrillicLanguageClass:46 - ngrams counting completed.....
+2023-04-25 12:05:20 INFO  CyrillicLanguageClass:52 - Russian detected
+2023-04-25 12:05:20 INFO  LangdetectFromUnicode:84 - words send to HAN
+2023-04-25 12:05:21 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-25 12:05:21 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 12:05:22 INFO  NgramModel:26 - convert into byte format
+2023-04-25 12:05:32 ERROR HANlanguageClass:25 - NgramModel
+2023-04-25 12:05:32 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-25 12:05:32 INFO  LangdetectFromUnicode:89 - words send to ARABIC
+2023-04-25 12:05:33 INFO  ARABIClanguageClass:21 - Model is Loading...
+2023-04-25 12:05:33 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 12:05:34 INFO  NgramModel:26 - convert into byte format
+2023-04-25 12:05:36 INFO  NgramModel:30 - model ready
+2023-04-25 12:05:36 INFO  ARABIClanguageClass:25 - Model loaded!
+2023-04-25 12:05:36 INFO  ARABIClanguageClass:43 - ngrams counting completed.....
+2023-04-25 12:05:36 INFO  ARABIClanguageClass:49 - Arabic detected
+2023-04-25 12:05:36 INFO  LangdetectFromUnicode:144 - Program run successfully..!
+2023-04-25 12:09:30 INFO  LangdetectFromUnicode:136 - Started..!
+2023-04-25 12:09:30 INFO  LangdetectFromUnicode:138 - File reading
+2023-04-25 12:09:30 INFO  LangdetectFromUnicode:122 - language detection Process started....
+2023-04-25 12:09:30 INFO  LangdetectFromUnicode:69 - word Splitting done....
+2023-04-25 12:09:30 INFO  LangdetectFromUnicode:78 - words send to LATIN
+2023-04-25 12:09:30 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-25 12:09:30 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 12:09:35 INFO  NgramModel:26 - convert into byte format
+2023-04-25 12:09:56 INFO  NgramModel:30 - model ready
+2023-04-25 12:09:56 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-25 12:09:56 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-25 12:09:56 INFO  LATINlanguageClass:49 - English detected
+2023-04-25 12:09:56 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-25 12:09:56 INFO  LATINlanguageClass:49 - French detected
+2023-04-25 12:09:56 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-25 12:09:56 INFO  LATINlanguageClass:49 - German detected
+2023-04-25 12:09:56 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-25 12:09:56 INFO  LangdetectFromUnicode:94 - words send to CYRILLIC
+2023-04-25 12:09:56 INFO  CyrillicLanguageClass:23 - Model is Loading...
+2023-04-25 12:09:56 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 12:09:58 INFO  NgramModel:26 - convert into byte format
+2023-04-25 12:10:01 INFO  NgramModel:30 - model ready
+2023-04-25 12:10:01 INFO  CyrillicLanguageClass:27 - Model loaded!
+2023-04-25 12:10:01 INFO  CyrillicLanguageClass:35 - Detecting Language..
+2023-04-25 12:10:01 INFO  CyrillicLanguageClass:46 - ngrams counting completed.....
+2023-04-25 12:10:01 INFO  CyrillicLanguageClass:52 - Russian detected
+2023-04-25 12:10:01 INFO  LangdetectFromUnicode:84 - words send to HAN
+2023-04-25 12:10:01 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-25 12:10:01 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 12:10:03 INFO  NgramModel:26 - convert into byte format
+2023-04-25 12:10:05 ERROR HANlanguageClass:25 - NgramModel
+2023-04-25 12:10:05 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-25 12:10:05 INFO  LangdetectFromUnicode:89 - words send to ARABIC
+2023-04-25 12:10:05 INFO  ARABIClanguageClass:21 - Model is Loading...
+2023-04-25 12:10:05 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 12:10:06 INFO  NgramModel:26 - convert into byte format
+2023-04-25 12:10:09 INFO  NgramModel:30 - model ready
+2023-04-25 12:10:09 INFO  ARABIClanguageClass:25 - Model loaded!
+2023-04-25 12:10:09 INFO  ARABIClanguageClass:43 - ngrams counting completed.....
+2023-04-25 12:10:09 INFO  ARABIClanguageClass:49 - Arabic detected
+2023-04-25 12:10:09 INFO  LangdetectFromUnicode:144 - Program run successfully..!
+2023-04-25 13:37:47 INFO  LangdetectFromUnicode:136 - Started..!
+2023-04-25 13:37:47 INFO  LangdetectFromUnicode:138 - File reading
+2023-04-25 13:37:47 INFO  LangdetectFromUnicode:122 - language detection Process started....
+2023-04-25 13:37:47 INFO  LangdetectFromUnicode:69 - word Splitting done....
+2023-04-25 13:37:47 INFO  LangdetectFromUnicode:78 - words send to LATIN
+2023-04-25 13:37:47 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-25 13:37:47 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 13:37:48 INFO  NgramModel:26 - convert into byte format
+2023-04-25 13:38:20 INFO  NgramModel:30 - model ready
+2023-04-25 13:38:20 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-25 13:38:20 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-25 13:38:20 INFO  LATINlanguageClass:49 - English detected
+2023-04-25 13:38:20 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-25 13:38:20 INFO  LATINlanguageClass:49 - French detected
+2023-04-25 13:38:20 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-25 13:38:20 INFO  LATINlanguageClass:49 - German detected
+2023-04-25 13:38:20 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-25 13:38:20 INFO  LangdetectFromUnicode:94 - words send to CYRILLIC
+2023-04-25 13:38:20 INFO  CyrillicLanguageClass:23 - Model is Loading...
+2023-04-25 13:38:20 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 13:38:20 INFO  NgramModel:26 - convert into byte format
+2023-04-25 13:38:22 INFO  NgramModel:30 - model ready
+2023-04-25 13:38:22 INFO  CyrillicLanguageClass:27 - Model loaded!
+2023-04-25 13:38:22 INFO  CyrillicLanguageClass:35 - Detecting Language..
+2023-04-25 13:38:22 INFO  CyrillicLanguageClass:46 - ngrams counting completed.....
+2023-04-25 13:38:22 INFO  CyrillicLanguageClass:52 - Russian detected
+2023-04-25 13:38:22 INFO  LangdetectFromUnicode:84 - words send to HAN
+2023-04-25 13:38:22 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-25 13:38:22 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 13:38:23 INFO  NgramModel:26 - convert into byte format
+2023-04-25 13:38:31 ERROR HANlanguageClass:25 - NgramModel
+2023-04-25 13:38:31 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-25 13:38:31 INFO  LangdetectFromUnicode:89 - words send to ARABIC
+2023-04-25 13:38:32 INFO  ARABIClanguageClass:21 - Model is Loading...
+2023-04-25 13:38:32 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 13:38:36 INFO  NgramModel:26 - convert into byte format
+2023-04-25 13:38:41 INFO  NgramModel:30 - model ready
+2023-04-25 13:38:41 INFO  ARABIClanguageClass:25 - Model loaded!
+2023-04-25 13:38:41 INFO  ARABIClanguageClass:43 - ngrams counting completed.....
+2023-04-25 13:38:41 INFO  ARABIClanguageClass:49 - Arabic detected
+2023-04-25 13:38:41 INFO  LangdetectFromUnicode:144 - Program run successfully..!
+2023-04-25 13:39:57 INFO  LangdetectFromUnicode:136 - Started..!
+2023-04-25 13:39:57 INFO  LangdetectFromUnicode:138 - File reading
+2023-04-25 13:39:57 INFO  LangdetectFromUnicode:122 - language detection Process started....
+2023-04-25 13:39:57 INFO  LangdetectFromUnicode:69 - word Splitting done....
+2023-04-25 13:39:57 INFO  LangdetectFromUnicode:78 - words send to LATIN
+2023-04-25 13:39:57 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-25 13:39:57 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 13:40:01 INFO  NgramModel:26 - convert into byte format
+2023-04-25 13:40:24 INFO  NgramModel:30 - model ready
+2023-04-25 13:40:24 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-25 13:40:24 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-25 13:40:24 INFO  LATINlanguageClass:49 - English detected
+2023-04-25 13:40:24 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-25 13:40:24 INFO  LATINlanguageClass:49 - French detected
+2023-04-25 13:40:24 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-25 13:40:24 INFO  LATINlanguageClass:49 - German detected
+2023-04-25 13:40:24 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-25 13:40:24 INFO  LangdetectFromUnicode:94 - words send to CYRILLIC
+2023-04-25 13:40:24 INFO  CyrillicLanguageClass:23 - Model is Loading...
+2023-04-25 13:40:24 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 13:40:26 INFO  NgramModel:26 - convert into byte format
+2023-04-25 13:40:30 INFO  NgramModel:30 - model ready
+2023-04-25 13:40:30 INFO  CyrillicLanguageClass:27 - Model loaded!
+2023-04-25 13:40:30 INFO  CyrillicLanguageClass:35 - Detecting Language..
+2023-04-25 13:40:30 INFO  CyrillicLanguageClass:46 - ngrams counting completed.....
+2023-04-25 13:40:30 INFO  CyrillicLanguageClass:52 - Russian detected
+2023-04-25 13:40:30 INFO  LangdetectFromUnicode:84 - words send to HAN
+2023-04-25 13:40:30 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-25 13:40:30 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 13:40:32 INFO  NgramModel:26 - convert into byte format
+2023-04-25 13:40:40 ERROR HANlanguageClass:25 - NgramModel
+2023-04-25 13:40:40 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-25 13:40:40 INFO  LangdetectFromUnicode:89 - words send to ARABIC
+2023-04-25 13:40:43 INFO  ARABIClanguageClass:21 - Model is Loading...
+2023-04-25 13:40:43 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 13:40:48 INFO  NgramModel:26 - convert into byte format
+2023-04-25 13:41:19 INFO  NgramModel:30 - model ready
+2023-04-25 13:41:20 INFO  ARABIClanguageClass:25 - Model loaded!
+2023-04-25 13:41:20 INFO  ARABIClanguageClass:43 - ngrams counting completed.....
+2023-04-25 13:41:20 INFO  ARABIClanguageClass:49 - Arabic detected
+2023-04-25 13:41:21 INFO  LangdetectFromUnicode:144 - Program run successfully..!
+2023-04-25 13:43:46 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at Sourcecode.Driver.main(Driver.java:20)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-25 13:43:50 WARN  MetricsConfig:136 - Cannot locate configuration: tried hadoop-metrics2-jobtracker.properties,hadoop-metrics2.properties
+2023-04-25 13:43:51 INFO  MetricsSystemImpl:378 - Scheduled Metric snapshot period at 10 second(s).
+2023-04-25 13:43:51 INFO  MetricsSystemImpl:191 - JobTracker metrics system started
+2023-04-25 13:43:53 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-25 13:43:53 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-25 13:43:53 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-25 13:43:54 INFO  JobSubmitter:202 - number of splits:1
+2023-04-25 13:43:56 INFO  JobSubmitter:298 - Submitting tokens for job: job_local432839011_0001
+2023-04-25 13:43:56 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-25 13:43:57 INFO  Job:1575 - The url to track the job: http://localhost:8080/
+2023-04-25 13:43:57 INFO  Job:1620 - Running job: job_local432839011_0001
+2023-04-25 13:43:57 INFO  LocalJobRunner:501 - OutputCommitter set in config null
+2023-04-25 13:43:57 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-25 13:43:57 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-25 13:43:57 INFO  LocalJobRunner:519 - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2023-04-25 13:43:57 INFO  LocalJobRunner:478 - Waiting for map tasks
+2023-04-25 13:43:57 INFO  LocalJobRunner:252 - Starting task: attempt_local432839011_0001_m_000000_0
+2023-04-25 13:43:58 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-25 13:43:58 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-25 13:43:58 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-25 13:43:58 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-25 13:43:58 INFO  MapTask:769 - Processing split: file:/W:/MapperProject/src/main/java/LanguageDetection/input1:0+64
+2023-04-25 13:43:58 INFO  MapTask:1220 - (EQUATOR) 0 kvi 26214396(104857584)
+2023-04-25 13:43:58 INFO  MapTask:1013 - mapreduce.task.io.sort.mb: 100
+2023-04-25 13:43:58 INFO  MapTask:1014 - soft limit at 83886080
+2023-04-25 13:43:58 INFO  MapTask:1015 - bufstart = 0; bufvoid = 104857600
+2023-04-25 13:43:58 INFO  MapTask:1016 - kvstart = 26214396; length = 6553600
+2023-04-25 13:43:58 INFO  MapTask:410 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2023-04-25 13:43:58 INFO  Mapper1:29 - Mapper Process Started....
+2023-04-25 13:43:58 INFO  Mapper1:34 - Result write in file
+2023-04-25 13:43:58 INFO  MapTask:1477 - Starting flush of map output
+2023-04-25 13:43:58 INFO  LocalJobRunner:486 - map task executor complete.
+2023-04-25 13:43:58 WARN  LocalJobRunner:590 - job_local432839011_0001
+java.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:492)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:552)
+Caused by: java.lang.NullPointerException
+	at org.apache.hadoop.io.Text.encode(Text.java:451)
+	at org.apache.hadoop.io.Text.set(Text.java:198)
+	at org.apache.hadoop.io.Text.<init>(Text.java:88)
+	at Sourcecode.MapperLanguageDetection.map(Mapper1.java:35)
+	at Sourcecode.MapperLanguageDetection.map(Mapper1.java:24)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:146)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:800)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:348)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:271)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-04-25 13:43:58 INFO  Job:1641 - Job job_local432839011_0001 running in uber mode : false
+2023-04-25 13:43:58 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-25 13:43:58 INFO  Job:1661 - Job job_local432839011_0001 failed with state FAILED due to: NA
+2023-04-25 13:43:58 INFO  Job:1666 - Counters: 0
+2023-04-25 13:44:49 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at Sourcecode.Driver.main(Driver.java:20)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-25 13:44:50 WARN  MetricsConfig:136 - Cannot locate configuration: tried hadoop-metrics2-jobtracker.properties,hadoop-metrics2.properties
+2023-04-25 13:44:50 INFO  MetricsSystemImpl:378 - Scheduled Metric snapshot period at 10 second(s).
+2023-04-25 13:44:50 INFO  MetricsSystemImpl:191 - JobTracker metrics system started
+2023-04-25 13:44:51 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-25 13:44:51 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-25 13:44:51 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-25 13:44:51 INFO  JobSubmitter:202 - number of splits:1
+2023-04-25 13:44:51 INFO  JobSubmitter:298 - Submitting tokens for job: job_local768353264_0001
+2023-04-25 13:44:51 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-25 13:44:51 INFO  Job:1575 - The url to track the job: http://localhost:8080/
+2023-04-25 13:44:51 INFO  Job:1620 - Running job: job_local768353264_0001
+2023-04-25 13:44:51 INFO  LocalJobRunner:501 - OutputCommitter set in config null
+2023-04-25 13:44:51 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-25 13:44:51 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-25 13:44:51 INFO  LocalJobRunner:519 - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2023-04-25 13:44:52 INFO  LocalJobRunner:478 - Waiting for map tasks
+2023-04-25 13:44:52 INFO  LocalJobRunner:252 - Starting task: attempt_local768353264_0001_m_000000_0
+2023-04-25 13:44:52 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-25 13:44:52 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-25 13:44:52 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-25 13:44:52 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-25 13:44:52 INFO  MapTask:769 - Processing split: file:/W:/MapperProject/src/main/java/LanguageDetection/input1:0+60
+2023-04-25 13:44:52 INFO  MapTask:1220 - (EQUATOR) 0 kvi 26214396(104857584)
+2023-04-25 13:44:52 INFO  MapTask:1013 - mapreduce.task.io.sort.mb: 100
+2023-04-25 13:44:52 INFO  MapTask:1014 - soft limit at 83886080
+2023-04-25 13:44:52 INFO  MapTask:1015 - bufstart = 0; bufvoid = 104857600
+2023-04-25 13:44:52 INFO  MapTask:1016 - kvstart = 26214396; length = 6553600
+2023-04-25 13:44:52 INFO  MapTask:410 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2023-04-25 13:44:52 INFO  Mapper1:29 - Mapper Process Started....
+2023-04-25 13:44:52 INFO  LangdetectFromUnicode:122 - language detection Process started....
+2023-04-25 13:44:52 INFO  LangdetectFromUnicode:69 - word Splitting done....
+2023-04-25 13:44:52 INFO  LangdetectFromUnicode:78 - words send to LATIN
+2023-04-25 13:44:52 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-25 13:44:52 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 13:44:53 INFO  Job:1641 - Job job_local768353264_0001 running in uber mode : false
+2023-04-25 13:44:53 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-25 13:44:58 INFO  NgramModel:26 - convert into byte format
+2023-04-25 13:45:04 INFO  LocalJobRunner:634 - map > map
+2023-04-25 13:45:04 INFO  Job:1648 -  map 67% reduce 0%
+2023-04-25 13:45:16 INFO  NgramModel:30 - model ready
+2023-04-25 13:45:16 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-25 13:45:16 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-25 13:45:16 INFO  LATINlanguageClass:49 - English detected
+2023-04-25 13:45:16 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-25 13:45:16 INFO  LATINlanguageClass:49 - French detected
+2023-04-25 13:45:16 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-25 13:45:16 INFO  LATINlanguageClass:49 - German detected
+2023-04-25 13:45:16 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-25 13:45:16 INFO  LangdetectFromUnicode:94 - words send to CYRILLIC
+2023-04-25 13:45:16 INFO  CyrillicLanguageClass:23 - Model is Loading...
+2023-04-25 13:45:16 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 13:45:17 INFO  NgramModel:26 - convert into byte format
+2023-04-25 13:45:19 INFO  NgramModel:30 - model ready
+2023-04-25 13:45:19 INFO  CyrillicLanguageClass:27 - Model loaded!
+2023-04-25 13:45:19 INFO  CyrillicLanguageClass:35 - Detecting Language..
+2023-04-25 13:45:19 INFO  CyrillicLanguageClass:46 - ngrams counting completed.....
+2023-04-25 13:45:19 INFO  CyrillicLanguageClass:52 - Russian detected
+2023-04-25 13:45:19 INFO  LangdetectFromUnicode:84 - words send to HAN
+2023-04-25 13:45:19 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-25 13:45:19 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 13:45:22 INFO  NgramModel:26 - convert into byte format
+2023-04-25 13:45:34 ERROR HANlanguageClass:25 - NgramModel
+2023-04-25 13:45:34 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-25 13:45:34 INFO  LangdetectFromUnicode:89 - words send to ARABIC
+2023-04-25 13:45:34 INFO  ARABIClanguageClass:21 - Model is Loading...
+2023-04-25 13:45:34 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 13:45:37 INFO  NgramModel:26 - convert into byte format
+2023-04-25 13:45:48 INFO  NgramModel:30 - model ready
+2023-04-25 13:45:48 INFO  ARABIClanguageClass:25 - Model loaded!
+2023-04-25 13:45:48 INFO  ARABIClanguageClass:43 - ngrams counting completed.....
+2023-04-25 13:45:48 INFO  ARABIClanguageClass:49 - Arabic detected
+2023-04-25 13:45:48 INFO  Mapper1:34 - Result write in file
+2023-04-25 13:45:48 INFO  LocalJobRunner:634 - map > map
+2023-04-25 13:45:48 INFO  MapTask:1477 - Starting flush of map output
+2023-04-25 13:45:48 INFO  MapTask:1499 - Spilling map output
+2023-04-25 13:45:48 INFO  MapTask:1500 - bufstart = 0; bufend = 279; bufvoid = 104857600
+2023-04-25 13:45:48 INFO  MapTask:1502 - kvstart = 26214396(104857584); kvend = 26214396(104857584); length = 1/6553600
+2023-04-25 13:45:56 INFO  MapTask:1700 - Finished spill 0
+2023-04-25 13:45:56 INFO  Task:1244 - Task:attempt_local768353264_0001_m_000000_0 is done. And is in the process of committing
+2023-04-25 13:45:56 INFO  LocalJobRunner:634 - map
+2023-04-25 13:45:56 INFO  Task:1380 - Task 'attempt_local768353264_0001_m_000000_0' done.
+2023-04-25 13:45:56 INFO  Task:1276 - Final Counters for attempt_local768353264_0001_m_000000_0: Counters: 17
+	File System Counters
+		FILE: Number of bytes read=240
+		FILE: Number of bytes written=613744
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=1
+		Map output records=1
+		Map output bytes=279
+		Map output materialized bytes=289
+		Input split bytes=126
+		Combine input records=0
+		Spilled Records=1
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=9378
+		Total committed heap usage (bytes)=11263803392
+	File Input Format Counters 
+		Bytes Read=60
+2023-04-25 13:45:56 INFO  LocalJobRunner:277 - Finishing task: attempt_local768353264_0001_m_000000_0
+2023-04-25 13:45:56 INFO  LocalJobRunner:486 - map task executor complete.
+2023-04-25 13:45:56 INFO  LocalJobRunner:478 - Waiting for reduce tasks
+2023-04-25 13:45:56 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-25 13:45:56 INFO  LocalJobRunner:330 - Starting task: attempt_local768353264_0001_r_000000_0
+2023-04-25 13:45:57 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-25 13:45:57 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-25 13:45:57 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-25 13:45:57 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-25 13:45:57 INFO  ReduceTask:363 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@44a85679
+2023-04-25 13:45:57 WARN  MetricsSystemImpl:151 - JobTracker metrics system already initialized!
+2023-04-25 13:45:57 INFO  MergeManagerImpl:198 - The max number of bytes for a single in-memory shuffle cannot be larger than Integer.MAX_VALUE. Setting it to Integer.MAX_VALUE
+2023-04-25 13:45:57 INFO  MergeManagerImpl:208 - MergerManager: memoryLimit=9019430912, maxSingleShuffleLimit=2147483647, mergeThreshold=5952824832, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2023-04-25 13:45:57 INFO  EventFetcher:61 - attempt_local768353264_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2023-04-25 13:45:58 INFO  LocalFetcher:147 - localfetcher#1 about to shuffle output of map attempt_local768353264_0001_m_000000_0 decomp: 285 len: 289 to MEMORY
+2023-04-25 13:45:58 INFO  InMemoryMapOutput:94 - Read 285 bytes from map-output for attempt_local768353264_0001_m_000000_0
+2023-04-25 13:45:58 INFO  MergeManagerImpl:323 - closeInMemoryFile -> map-output of size: 285, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->285
+2023-04-25 13:45:58 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2023-04-25 13:45:58 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-25 13:45:58 INFO  MergeManagerImpl:699 - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2023-04-25 13:45:58 INFO  Merger:607 - Merging 1 sorted segments
+2023-04-25 13:45:58 INFO  Merger:706 - Down to the last merge-pass, with 1 segments left of total size: 279 bytes
+2023-04-25 13:45:58 INFO  MergeManagerImpl:768 - Merged 1 segments, 285 bytes to disk to satisfy reduce memory limit
+2023-04-25 13:45:58 INFO  MergeManagerImpl:798 - Merging 1 files, 289 bytes from disk
+2023-04-25 13:45:58 INFO  MergeManagerImpl:813 - Merging 0 segments, 0 bytes from memory into reduce
+2023-04-25 13:45:58 INFO  Merger:607 - Merging 1 sorted segments
+2023-04-25 13:45:58 INFO  Merger:706 - Down to the last merge-pass, with 1 segments left of total size: 279 bytes
+2023-04-25 13:45:58 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-25 13:45:58 INFO  deprecation:1441 - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2023-04-25 13:45:58 INFO  Task:1244 - Task:attempt_local768353264_0001_r_000000_0 is done. And is in the process of committing
+2023-04-25 13:45:58 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-25 13:45:58 INFO  Task:1421 - Task attempt_local768353264_0001_r_000000_0 is allowed to commit now
+2023-04-25 13:45:58 INFO  FileOutputCommitter:609 - Saved output of task 'attempt_local768353264_0001_r_000000_0' to file:/W:/MapperProject/src/main/java/LanguageDetection/output1
+2023-04-25 13:45:58 INFO  LocalJobRunner:634 - reduce > reduce
+2023-04-25 13:45:58 INFO  Task:1380 - Task 'attempt_local768353264_0001_r_000000_0' done.
+2023-04-25 13:45:58 INFO  Task:1276 - Final Counters for attempt_local768353264_0001_r_000000_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=850
+		FILE: Number of bytes written=614322
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=289
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=1
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=11263803392
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=289
+2023-04-25 13:45:58 INFO  LocalJobRunner:353 - Finishing task: attempt_local768353264_0001_r_000000_0
+2023-04-25 13:45:58 INFO  LocalJobRunner:486 - reduce task executor complete.
+2023-04-25 13:45:58 INFO  Job:1648 -  map 100% reduce 100%
+2023-04-25 13:45:58 INFO  Job:1659 - Job job_local768353264_0001 completed successfully
+2023-04-25 13:45:59 INFO  Job:1666 - Counters: 30
+	File System Counters
+		FILE: Number of bytes read=1090
+		FILE: Number of bytes written=1228066
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=1
+		Map output records=1
+		Map output bytes=279
+		Map output materialized bytes=289
+		Input split bytes=126
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=289
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=2
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=9378
+		Total committed heap usage (bytes)=22527606784
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=60
+	File Output Format Counters 
+		Bytes Written=289
+2023-04-25 13:49:12 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at Sourcecode.Driver.main(Driver.java:20)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-25 13:49:14 WARN  MetricsConfig:136 - Cannot locate configuration: tried hadoop-metrics2-jobtracker.properties,hadoop-metrics2.properties
+2023-04-25 13:49:14 INFO  MetricsSystemImpl:378 - Scheduled Metric snapshot period at 10 second(s).
+2023-04-25 13:49:14 INFO  MetricsSystemImpl:191 - JobTracker metrics system started
+2023-04-25 13:49:15 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-25 13:49:15 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-25 13:49:15 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-25 13:49:16 INFO  JobSubmitter:202 - number of splits:1
+2023-04-25 13:49:16 INFO  JobSubmitter:298 - Submitting tokens for job: job_local229993246_0001
+2023-04-25 13:49:16 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-25 13:49:17 INFO  Job:1575 - The url to track the job: http://localhost:8080/
+2023-04-25 13:49:17 INFO  Job:1620 - Running job: job_local229993246_0001
+2023-04-25 13:49:17 INFO  LocalJobRunner:501 - OutputCommitter set in config null
+2023-04-25 13:49:17 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-25 13:49:17 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-25 13:49:17 INFO  LocalJobRunner:519 - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2023-04-25 13:49:17 INFO  LocalJobRunner:478 - Waiting for map tasks
+2023-04-25 13:49:17 INFO  LocalJobRunner:252 - Starting task: attempt_local229993246_0001_m_000000_0
+2023-04-25 13:49:17 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-25 13:49:17 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-25 13:49:17 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-25 13:49:17 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-25 13:49:17 INFO  MapTask:769 - Processing split: file:/W:/MapperProject/src/main/java/LanguageDetection/input1:0+60
+2023-04-25 13:49:18 INFO  MapTask:1220 - (EQUATOR) 0 kvi 26214396(104857584)
+2023-04-25 13:49:18 INFO  MapTask:1013 - mapreduce.task.io.sort.mb: 100
+2023-04-25 13:49:18 INFO  MapTask:1014 - soft limit at 83886080
+2023-04-25 13:49:18 INFO  MapTask:1015 - bufstart = 0; bufvoid = 104857600
+2023-04-25 13:49:18 INFO  MapTask:1016 - kvstart = 26214396; length = 6553600
+2023-04-25 13:49:18 INFO  MapTask:410 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2023-04-25 13:49:18 INFO  MapperLanguageDetection:29 - Mapper Process Started....
+2023-04-25 13:49:18 INFO  LangdetectFromUnicode:122 - language detection Process started....
+2023-04-25 13:49:18 INFO  LangdetectFromUnicode:69 - word Splitting done....
+2023-04-25 13:49:18 INFO  LangdetectFromUnicode:78 - words send to LATIN
+2023-04-25 13:49:18 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-25 13:49:18 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 13:49:18 INFO  Job:1641 - Job job_local229993246_0001 running in uber mode : false
+2023-04-25 13:49:19 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-25 13:49:21 INFO  NgramModel:26 - convert into byte format
+2023-04-25 13:49:29 INFO  LocalJobRunner:634 - map > map
+2023-04-25 13:49:29 INFO  Job:1648 -  map 67% reduce 0%
+2023-04-25 13:49:43 INFO  NgramModel:30 - model ready
+2023-04-25 13:49:43 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-25 13:49:43 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-25 13:49:43 INFO  LATINlanguageClass:49 - English detected
+2023-04-25 13:49:43 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-25 13:49:43 INFO  LATINlanguageClass:49 - French detected
+2023-04-25 13:49:43 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-25 13:49:43 INFO  LATINlanguageClass:49 - German detected
+2023-04-25 13:49:43 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-25 13:49:43 INFO  LangdetectFromUnicode:94 - words send to CYRILLIC
+2023-04-25 13:49:43 INFO  CyrillicLanguageClass:23 - Model is Loading...
+2023-04-25 13:49:43 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 13:49:44 INFO  NgramModel:26 - convert into byte format
+2023-04-25 13:49:56 INFO  NgramModel:30 - model ready
+2023-04-25 13:49:56 INFO  CyrillicLanguageClass:27 - Model loaded!
+2023-04-25 13:49:56 INFO  CyrillicLanguageClass:35 - Detecting Language..
+2023-04-25 13:49:56 INFO  CyrillicLanguageClass:46 - ngrams counting completed.....
+2023-04-25 13:49:56 INFO  CyrillicLanguageClass:52 - Russian detected
+2023-04-25 13:49:56 INFO  LangdetectFromUnicode:84 - words send to HAN
+2023-04-25 13:49:56 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-25 13:49:56 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 13:49:59 INFO  NgramModel:26 - convert into byte format
+2023-04-25 13:50:12 ERROR HANlanguageClass:25 - NgramModel
+2023-04-25 13:50:12 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-25 13:50:12 INFO  LangdetectFromUnicode:89 - words send to ARABIC
+2023-04-25 13:50:12 INFO  ARABIClanguageClass:21 - Model is Loading...
+2023-04-25 13:50:12 INFO  NgramModel:24 - Ngram Model Process running
+2023-04-25 13:50:13 INFO  NgramModel:26 - convert into byte format
+2023-04-25 13:50:17 INFO  NgramModel:30 - model ready
+2023-04-25 13:50:17 INFO  ARABIClanguageClass:25 - Model loaded!
+2023-04-25 13:50:17 INFO  ARABIClanguageClass:43 - ngrams counting completed.....
+2023-04-25 13:50:17 INFO  ARABIClanguageClass:49 - Arabic detected
+2023-04-25 13:50:17 INFO  MapperLanguageDetection:34 - Result write in file
+2023-04-25 13:50:17 INFO  LocalJobRunner:634 - map > map
+2023-04-25 13:50:17 INFO  MapTask:1477 - Starting flush of map output
+2023-04-25 13:50:17 INFO  MapTask:1499 - Spilling map output
+2023-04-25 13:50:17 INFO  MapTask:1500 - bufstart = 0; bufend = 279; bufvoid = 104857600
+2023-04-25 13:50:17 INFO  MapTask:1502 - kvstart = 26214396(104857584); kvend = 26214396(104857584); length = 1/6553600
+2023-04-25 13:50:20 INFO  MapTask:1700 - Finished spill 0
+2023-04-25 13:50:20 INFO  Task:1244 - Task:attempt_local229993246_0001_m_000000_0 is done. And is in the process of committing
+2023-04-25 13:50:20 INFO  LocalJobRunner:634 - map
+2023-04-25 13:50:20 INFO  Task:1380 - Task 'attempt_local229993246_0001_m_000000_0' done.
+2023-04-25 13:50:21 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-25 13:50:22 INFO  Task:1276 - Final Counters for attempt_local229993246_0001_m_000000_0: Counters: 17
+	File System Counters
+		FILE: Number of bytes read=240
+		FILE: Number of bytes written=613776
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=1
+		Map output records=1
+		Map output bytes=279
+		Map output materialized bytes=289
+		Input split bytes=126
+		Combine input records=0
+		Spilled Records=1
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=14534
+		Total committed heap usage (bytes)=11555307520
+	File Input Format Counters 
+		Bytes Read=60
+2023-04-25 13:50:22 INFO  LocalJobRunner:277 - Finishing task: attempt_local229993246_0001_m_000000_0
+2023-04-25 13:50:22 INFO  LocalJobRunner:486 - map task executor complete.
+2023-04-25 13:50:23 INFO  LocalJobRunner:478 - Waiting for reduce tasks
+2023-04-25 13:50:23 INFO  LocalJobRunner:330 - Starting task: attempt_local229993246_0001_r_000000_0
+2023-04-25 13:50:23 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-25 13:50:23 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-25 13:50:23 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-25 13:50:23 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-25 13:50:23 INFO  ReduceTask:363 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@419cd11e
+2023-04-25 13:50:23 WARN  MetricsSystemImpl:151 - JobTracker metrics system already initialized!
+2023-04-25 13:50:26 INFO  MergeManagerImpl:198 - The max number of bytes for a single in-memory shuffle cannot be larger than Integer.MAX_VALUE. Setting it to Integer.MAX_VALUE
+2023-04-25 13:50:26 INFO  MergeManagerImpl:208 - MergerManager: memoryLimit=9019430912, maxSingleShuffleLimit=2147483647, mergeThreshold=5952824832, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2023-04-25 13:50:26 INFO  EventFetcher:61 - attempt_local229993246_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2023-04-25 13:50:27 INFO  LocalFetcher:147 - localfetcher#1 about to shuffle output of map attempt_local229993246_0001_m_000000_0 decomp: 285 len: 289 to MEMORY
+2023-04-25 13:50:27 INFO  InMemoryMapOutput:94 - Read 285 bytes from map-output for attempt_local229993246_0001_m_000000_0
+2023-04-25 13:50:27 INFO  MergeManagerImpl:323 - closeInMemoryFile -> map-output of size: 285, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->285
+2023-04-25 13:50:27 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2023-04-25 13:50:27 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-25 13:50:27 INFO  MergeManagerImpl:699 - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2023-04-25 13:50:27 INFO  Merger:607 - Merging 1 sorted segments
+2023-04-25 13:50:27 INFO  Merger:706 - Down to the last merge-pass, with 1 segments left of total size: 279 bytes
+2023-04-25 13:50:27 INFO  MergeManagerImpl:768 - Merged 1 segments, 285 bytes to disk to satisfy reduce memory limit
+2023-04-25 13:50:27 INFO  MergeManagerImpl:798 - Merging 1 files, 289 bytes from disk
+2023-04-25 13:50:27 INFO  MergeManagerImpl:813 - Merging 0 segments, 0 bytes from memory into reduce
+2023-04-25 13:50:27 INFO  Merger:607 - Merging 1 sorted segments
+2023-04-25 13:50:27 INFO  Merger:706 - Down to the last merge-pass, with 1 segments left of total size: 279 bytes
+2023-04-25 13:50:27 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-25 13:50:27 INFO  deprecation:1441 - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2023-04-25 13:50:27 INFO  Task:1244 - Task:attempt_local229993246_0001_r_000000_0 is done. And is in the process of committing
+2023-04-25 13:50:27 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-25 13:50:27 INFO  Task:1421 - Task attempt_local229993246_0001_r_000000_0 is allowed to commit now
+2023-04-25 13:50:27 INFO  FileOutputCommitter:609 - Saved output of task 'attempt_local229993246_0001_r_000000_0' to file:/W:/MapperProject/src/main/java/LanguageDetection/output2
+2023-04-25 13:50:27 INFO  LocalJobRunner:634 - reduce > reduce
+2023-04-25 13:50:27 INFO  Task:1380 - Task 'attempt_local229993246_0001_r_000000_0' done.
+2023-04-25 13:50:27 INFO  Task:1276 - Final Counters for attempt_local229993246_0001_r_000000_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=850
+		FILE: Number of bytes written=614354
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=289
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=1
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=11555307520
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=289
+2023-04-25 13:50:27 INFO  LocalJobRunner:353 - Finishing task: attempt_local229993246_0001_r_000000_0
+2023-04-25 13:50:27 INFO  LocalJobRunner:486 - reduce task executor complete.
+2023-04-25 13:50:28 INFO  Job:1648 -  map 100% reduce 100%
+2023-04-25 13:50:28 INFO  Job:1659 - Job job_local229993246_0001 completed successfully
+2023-04-25 13:50:28 INFO  Job:1666 - Counters: 30
+	File System Counters
+		FILE: Number of bytes read=1090
+		FILE: Number of bytes written=1228130
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=1
+		Map output records=1
+		Map output bytes=279
+		Map output materialized bytes=289
+		Input split bytes=126
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=289
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=2
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=14534
+		Total committed heap usage (bytes)=23110615040
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=60
+	File Output Format Counters 
+		Bytes Written=289
+2023-04-25 13:56:34 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at Sourcecode.Driver.main(Driver.java:20)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-25 13:56:35 WARN  MetricsConfig:136 - Cannot locate configuration: tried hadoop-metrics2-jobtracker.properties,hadoop-metrics2.properties
+2023-04-25 13:56:35 INFO  MetricsSystemImpl:378 - Scheduled Metric snapshot period at 10 second(s).
+2023-04-25 13:56:35 INFO  MetricsSystemImpl:191 - JobTracker metrics system started
+2023-04-25 13:56:36 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-25 13:56:36 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-25 13:56:37 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-25 13:56:37 INFO  JobSubmitter:202 - number of splits:1
+2023-04-25 13:56:38 INFO  JobSubmitter:298 - Submitting tokens for job: job_local1794690165_0001
+2023-04-25 13:56:38 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-25 13:56:38 INFO  Job:1575 - The url to track the job: http://localhost:8080/
+2023-04-25 13:56:38 INFO  Job:1620 - Running job: job_local1794690165_0001
+2023-04-25 13:56:38 INFO  LocalJobRunner:501 - OutputCommitter set in config null
+2023-04-25 13:56:39 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-25 13:56:39 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-25 13:56:39 INFO  LocalJobRunner:519 - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2023-04-25 13:56:39 INFO  LocalJobRunner:478 - Waiting for map tasks
+2023-04-25 13:56:39 INFO  LocalJobRunner:252 - Starting task: attempt_local1794690165_0001_m_000000_0
+2023-04-25 13:56:39 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-25 13:56:39 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-25 13:56:39 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-25 13:56:39 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-25 13:56:39 INFO  MapTask:769 - Processing split: file:/W:/MapperProject/src/main/java/LanguageDetection/input1:0+60
+2023-04-25 13:56:39 INFO  MapTask:1220 - (EQUATOR) 0 kvi 26214396(104857584)
+2023-04-25 13:56:39 INFO  MapTask:1013 - mapreduce.task.io.sort.mb: 100
+2023-04-25 13:56:39 INFO  MapTask:1014 - soft limit at 83886080
+2023-04-25 13:56:39 INFO  MapTask:1015 - bufstart = 0; bufvoid = 104857600
+2023-04-25 13:56:39 INFO  MapTask:1016 - kvstart = 26214396; length = 6553600
+2023-04-25 13:56:39 INFO  Job:1641 - Job job_local1794690165_0001 running in uber mode : false
+2023-04-25 13:56:39 INFO  MapTask:410 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2023-04-25 13:56:39 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-25 13:56:40 INFO  MapperLanguageDetection:29 - Mapper Process Started....
+2023-04-25 13:56:40 INFO  LangdetectFromUnicode:122 - language detection Process started....
+2023-04-25 13:56:40 INFO  LangdetectFromUnicode:69 - word Splitting done....
+2023-04-25 13:56:40 INFO  LangdetectFromUnicode:78 - words send to LATIN
+2023-04-25 13:56:40 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-25 13:56:40 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 13:56:41 INFO  NgramModel:24 - convert into byte format
+2023-04-25 13:56:51 INFO  LocalJobRunner:634 - map > map
+2023-04-25 13:56:52 INFO  Job:1648 -  map 67% reduce 0%
+2023-04-25 13:57:02 ERROR LATINlanguageClass:27 - LanguageDetection.NgramModel
+2023-04-25 13:57:02 ERROR LATINlanguageClass:59 - NullPointerException..!
+2023-04-25 13:57:02 INFO  LangdetectFromUnicode:94 - words send to CYRILLIC
+2023-04-25 13:57:02 INFO  CyrillicLanguageClass:21 - Model is Loading...
+2023-04-25 13:57:02 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 13:57:02 INFO  NgramModel:24 - convert into byte format
+2023-04-25 13:57:12 ERROR CyrillicLanguageClass:27 - LanguageDetection.NgramModel
+2023-04-25 13:57:12 ERROR CyrillicLanguageClass:61 - 
+2023-04-25 13:57:12 INFO  LangdetectFromUnicode:84 - words send to HAN
+2023-04-25 13:57:12 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-25 13:57:12 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 13:57:15 INFO  NgramModel:24 - convert into byte format
+2023-04-25 14:01:50 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at Sourcecode.Driver.main(Driver.java:20)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-25 14:01:51 WARN  MetricsConfig:136 - Cannot locate configuration: tried hadoop-metrics2-jobtracker.properties,hadoop-metrics2.properties
+2023-04-25 14:01:52 INFO  MetricsSystemImpl:378 - Scheduled Metric snapshot period at 10 second(s).
+2023-04-25 14:01:52 INFO  MetricsSystemImpl:191 - JobTracker metrics system started
+2023-04-25 14:01:53 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-25 14:01:53 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-25 14:01:53 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-25 14:01:53 INFO  JobSubmitter:202 - number of splits:1
+2023-04-25 14:01:54 INFO  JobSubmitter:298 - Submitting tokens for job: job_local1940390768_0001
+2023-04-25 14:01:54 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-25 14:01:54 INFO  Job:1575 - The url to track the job: http://localhost:8080/
+2023-04-25 14:01:55 INFO  Job:1620 - Running job: job_local1940390768_0001
+2023-04-25 14:01:55 INFO  LocalJobRunner:501 - OutputCommitter set in config null
+2023-04-25 14:01:55 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-25 14:01:55 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-25 14:01:55 INFO  LocalJobRunner:519 - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2023-04-25 14:01:55 INFO  LocalJobRunner:478 - Waiting for map tasks
+2023-04-25 14:01:55 INFO  LocalJobRunner:252 - Starting task: attempt_local1940390768_0001_m_000000_0
+2023-04-25 14:01:55 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-25 14:01:55 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-25 14:01:55 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-25 14:01:55 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-25 14:01:55 INFO  MapTask:769 - Processing split: file:/W:/MapperProject/src/main/java/LanguageDetection/input1:0+60
+2023-04-25 14:01:56 INFO  Job:1641 - Job job_local1940390768_0001 running in uber mode : false
+2023-04-25 14:01:56 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-25 14:01:56 INFO  MapTask:1220 - (EQUATOR) 0 kvi 26214396(104857584)
+2023-04-25 14:01:56 INFO  MapTask:1013 - mapreduce.task.io.sort.mb: 100
+2023-04-25 14:01:56 INFO  MapTask:1014 - soft limit at 83886080
+2023-04-25 14:01:56 INFO  MapTask:1015 - bufstart = 0; bufvoid = 104857600
+2023-04-25 14:01:56 INFO  MapTask:1016 - kvstart = 26214396; length = 6553600
+2023-04-25 14:01:56 INFO  MapTask:410 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2023-04-25 14:01:56 INFO  MapperLanguageDetection:29 - Mapper Process Started....
+2023-04-25 14:01:56 INFO  LangdetectFromUnicode:123 - language detection Process started....
+2023-04-25 14:01:56 INFO  LangdetectFromUnicode:70 - word Splitting done....
+2023-04-25 14:01:56 INFO  LangdetectFromUnicode:79 - words send to LATIN
+2023-04-25 14:01:56 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-25 14:01:56 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 14:02:00 INFO  NgramModel:24 - convert into byte format
+2023-04-25 14:02:07 INFO  LocalJobRunner:634 - map > map
+2023-04-25 14:02:08 INFO  Job:1648 -  map 67% reduce 0%
+2023-04-25 14:02:24 ERROR LATINlanguageClass:27 - LanguageDetection.NgramModel
+2023-04-25 14:02:24 ERROR LATINlanguageClass:59 - NullPointerException..!
+2023-04-25 14:02:24 INFO  LangdetectFromUnicode:95 - words send to CYRILLIC
+2023-04-25 14:02:24 INFO  CyrillicLanguageClass:21 - Model is Loading...
+2023-04-25 14:02:24 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 14:02:25 INFO  NgramModel:24 - convert into byte format
+2023-04-25 14:02:32 ERROR CyrillicLanguageClass:27 - LanguageDetection.NgramModel
+2023-04-25 14:02:32 ERROR CyrillicLanguageClass:61 - 
+2023-04-25 14:02:32 INFO  LangdetectFromUnicode:85 - words send to HAN
+2023-04-25 14:02:32 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-25 14:02:32 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 14:02:34 INFO  NgramModel:24 - convert into byte format
+2023-04-25 14:02:45 ERROR HANlanguageClass:25 - NgramModel
+2023-04-25 14:02:45 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-25 14:02:45 INFO  LangdetectFromUnicode:90 - words send to ARABIC
+2023-04-25 14:02:45 INFO  ARABIClanguageClass:22 - Model is Loading...
+2023-04-25 14:02:45 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 14:02:47 INFO  NgramModel:24 - convert into byte format
+2023-04-25 14:02:51 ERROR ARABIClanguageClass:28 - LanguageDetection.NgramModel
+2023-04-25 14:02:51 ERROR ARABIClanguageClass:60 - NullPointerException..!
+2023-04-25 14:02:51 INFO  MapperLanguageDetection:34 - Result write in file
+2023-04-25 14:02:51 INFO  LocalJobRunner:634 - map > map
+2023-04-25 14:02:51 INFO  MapTask:1477 - Starting flush of map output
+2023-04-25 14:02:51 INFO  MapTask:1499 - Spilling map output
+2023-04-25 14:02:51 INFO  MapTask:1500 - bufstart = 0; bufend = 160; bufvoid = 104857600
+2023-04-25 14:02:51 INFO  MapTask:1502 - kvstart = 26214396(104857584); kvend = 26214396(104857584); length = 1/6553600
+2023-04-25 14:02:51 INFO  MapTask:1700 - Finished spill 0
+2023-04-25 14:02:51 INFO  Task:1244 - Task:attempt_local1940390768_0001_m_000000_0 is done. And is in the process of committing
+2023-04-25 14:02:51 INFO  LocalJobRunner:634 - map
+2023-04-25 14:02:51 INFO  Task:1380 - Task 'attempt_local1940390768_0001_m_000000_0' done.
+2023-04-25 14:02:52 INFO  Task:1276 - Final Counters for attempt_local1940390768_0001_m_000000_0: Counters: 17
+	File System Counters
+		FILE: Number of bytes read=240
+		FILE: Number of bytes written=616586
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=1
+		Map output records=1
+		Map output bytes=160
+		Map output materialized bytes=169
+		Input split bytes=126
+		Combine input records=0
+		Spilled Records=1
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=11070
+		Total committed heap usage (bytes)=11584667648
+	File Input Format Counters 
+		Bytes Read=60
+2023-04-25 14:02:52 INFO  LocalJobRunner:277 - Finishing task: attempt_local1940390768_0001_m_000000_0
+2023-04-25 14:02:52 INFO  LocalJobRunner:486 - map task executor complete.
+2023-04-25 14:02:52 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-25 14:02:52 INFO  LocalJobRunner:478 - Waiting for reduce tasks
+2023-04-25 14:02:52 INFO  LocalJobRunner:330 - Starting task: attempt_local1940390768_0001_r_000000_0
+2023-04-25 14:02:53 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-25 14:02:53 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-25 14:02:53 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-25 14:02:53 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-25 14:02:53 INFO  ReduceTask:363 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@7385be3c
+2023-04-25 14:02:53 WARN  MetricsSystemImpl:151 - JobTracker metrics system already initialized!
+2023-04-25 14:02:53 INFO  MergeManagerImpl:198 - The max number of bytes for a single in-memory shuffle cannot be larger than Integer.MAX_VALUE. Setting it to Integer.MAX_VALUE
+2023-04-25 14:02:53 INFO  MergeManagerImpl:208 - MergerManager: memoryLimit=9019430912, maxSingleShuffleLimit=2147483647, mergeThreshold=5952824832, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2023-04-25 14:02:53 INFO  EventFetcher:61 - attempt_local1940390768_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2023-04-25 14:02:53 INFO  LocalFetcher:147 - localfetcher#1 about to shuffle output of map attempt_local1940390768_0001_m_000000_0 decomp: 165 len: 169 to MEMORY
+2023-04-25 14:02:53 INFO  InMemoryMapOutput:94 - Read 165 bytes from map-output for attempt_local1940390768_0001_m_000000_0
+2023-04-25 14:02:53 INFO  MergeManagerImpl:323 - closeInMemoryFile -> map-output of size: 165, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->165
+2023-04-25 14:02:53 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2023-04-25 14:02:53 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-25 14:02:53 INFO  MergeManagerImpl:699 - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2023-04-25 14:02:53 INFO  Merger:607 - Merging 1 sorted segments
+2023-04-25 14:02:53 INFO  Merger:706 - Down to the last merge-pass, with 1 segments left of total size: 160 bytes
+2023-04-25 14:02:53 INFO  MergeManagerImpl:768 - Merged 1 segments, 165 bytes to disk to satisfy reduce memory limit
+2023-04-25 14:02:53 INFO  MergeManagerImpl:798 - Merging 1 files, 169 bytes from disk
+2023-04-25 14:02:53 INFO  MergeManagerImpl:813 - Merging 0 segments, 0 bytes from memory into reduce
+2023-04-25 14:02:53 INFO  Merger:607 - Merging 1 sorted segments
+2023-04-25 14:02:53 INFO  Merger:706 - Down to the last merge-pass, with 1 segments left of total size: 160 bytes
+2023-04-25 14:02:53 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-25 14:02:53 INFO  deprecation:1441 - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2023-04-25 14:02:53 INFO  Task:1244 - Task:attempt_local1940390768_0001_r_000000_0 is done. And is in the process of committing
+2023-04-25 14:02:53 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-25 14:02:53 INFO  Task:1421 - Task attempt_local1940390768_0001_r_000000_0 is allowed to commit now
+2023-04-25 14:02:53 INFO  FileOutputCommitter:609 - Saved output of task 'attempt_local1940390768_0001_r_000000_0' to file:/W:/MapperProject/src/main/java/LanguageDetection/output
+2023-04-25 14:02:53 INFO  LocalJobRunner:634 - reduce > reduce
+2023-04-25 14:02:53 INFO  Task:1380 - Task 'attempt_local1940390768_0001_r_000000_0' done.
+2023-04-25 14:02:53 INFO  Task:1276 - Final Counters for attempt_local1940390768_0001_r_000000_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=610
+		FILE: Number of bytes written=616926
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=169
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=1
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=11584667648
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=171
+2023-04-25 14:02:53 INFO  LocalJobRunner:353 - Finishing task: attempt_local1940390768_0001_r_000000_0
+2023-04-25 14:02:53 INFO  LocalJobRunner:486 - reduce task executor complete.
+2023-04-25 14:02:54 INFO  Job:1648 -  map 100% reduce 100%
+2023-04-25 14:02:54 INFO  Job:1659 - Job job_local1940390768_0001 completed successfully
+2023-04-25 14:02:54 INFO  Job:1666 - Counters: 30
+	File System Counters
+		FILE: Number of bytes read=850
+		FILE: Number of bytes written=1233512
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=1
+		Map output records=1
+		Map output bytes=160
+		Map output materialized bytes=169
+		Input split bytes=126
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=169
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=2
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=11070
+		Total committed heap usage (bytes)=23169335296
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=60
+	File Output Format Counters 
+		Bytes Written=171
+2023-04-25 14:51:10 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:20)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-25 14:51:11 WARN  MetricsConfig:136 - Cannot locate configuration: tried hadoop-metrics2-jobtracker.properties,hadoop-metrics2.properties
+2023-04-25 14:51:11 INFO  MetricsSystemImpl:378 - Scheduled Metric snapshot period at 10 second(s).
+2023-04-25 14:51:11 INFO  MetricsSystemImpl:191 - JobTracker metrics system started
+2023-04-25 14:51:12 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-25 14:51:12 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-25 14:51:12 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-25 14:51:12 INFO  JobSubmitter:202 - number of splits:1
+2023-04-25 14:51:14 INFO  JobSubmitter:298 - Submitting tokens for job: job_local1196863802_0001
+2023-04-25 14:51:14 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-25 14:51:15 INFO  Job:1575 - The url to track the job: http://localhost:8080/
+2023-04-25 14:51:15 INFO  Job:1620 - Running job: job_local1196863802_0001
+2023-04-25 14:51:15 INFO  LocalJobRunner:501 - OutputCommitter set in config null
+2023-04-25 14:51:16 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-25 14:51:16 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-25 14:51:16 INFO  LocalJobRunner:519 - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2023-04-25 14:51:16 INFO  Job:1641 - Job job_local1196863802_0001 running in uber mode : false
+2023-04-25 14:51:16 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-25 14:51:16 INFO  LocalJobRunner:478 - Waiting for map tasks
+2023-04-25 14:51:16 INFO  LocalJobRunner:252 - Starting task: attempt_local1196863802_0001_m_000000_0
+2023-04-25 14:51:16 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-25 14:51:16 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-25 14:51:16 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-25 14:51:16 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-25 14:51:16 INFO  MapTask:769 - Processing split: file:/W:/MapperProject/src/main/java/LanguageDetection/input1:0+60
+2023-04-25 14:51:16 INFO  MapTask:1220 - (EQUATOR) 0 kvi 26214396(104857584)
+2023-04-25 14:51:16 INFO  MapTask:1013 - mapreduce.task.io.sort.mb: 100
+2023-04-25 14:51:16 INFO  MapTask:1014 - soft limit at 83886080
+2023-04-25 14:51:16 INFO  MapTask:1015 - bufstart = 0; bufvoid = 104857600
+2023-04-25 14:51:16 INFO  MapTask:1016 - kvstart = 26214396; length = 6553600
+2023-04-25 14:51:16 INFO  MapTask:410 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2023-04-25 14:51:17 INFO  MapperLanguageDetection:29 - Mapper Process Started....
+2023-04-25 14:51:17 INFO  LangdetectFromUnicode:123 - language detection Process started....
+2023-04-25 14:51:17 INFO  LangdetectFromUnicode:70 - word Splitting done....
+2023-04-25 14:51:17 INFO  LangdetectFromUnicode:79 - words send to LATIN
+2023-04-25 14:51:17 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-25 14:51:17 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 14:51:21 INFO  NgramModel:24 - convert into byte format
+2023-04-25 14:51:30 INFO  LocalJobRunner:634 - map > map
+2023-04-25 14:51:31 INFO  Job:1648 -  map 67% reduce 0%
+2023-04-25 14:52:17 INFO  NgramModel:28 - model ready
+2023-04-25 14:52:25 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-25 14:52:26 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-25 14:52:28 INFO  LATINlanguageClass:49 - English detected
+2023-04-25 14:52:28 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-25 14:52:28 INFO  LATINlanguageClass:49 - French detected
+2023-04-25 14:52:28 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-25 14:52:28 INFO  LATINlanguageClass:49 - German detected
+2023-04-25 14:52:28 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-25 14:52:28 INFO  LangdetectFromUnicode:95 - words send to CYRILLIC
+2023-04-25 14:52:29 INFO  CyrillicLanguageClass:21 - Model is Loading...
+2023-04-25 14:52:29 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 14:52:37 INFO  NgramModel:24 - convert into byte format
+2023-04-25 14:52:40 INFO  NgramModel:28 - model ready
+2023-04-25 14:52:40 INFO  CyrillicLanguageClass:25 - Model loaded!
+2023-04-25 14:52:40 INFO  CyrillicLanguageClass:33 - Detecting Language..
+2023-04-25 14:52:40 INFO  CyrillicLanguageClass:44 - ngrams counting completed.....
+2023-04-25 14:52:40 INFO  CyrillicLanguageClass:50 - Russian detected
+2023-04-25 14:52:40 INFO  LangdetectFromUnicode:85 - words send to HAN
+2023-04-25 14:52:40 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-25 14:52:40 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 14:52:45 INFO  NgramModel:24 - convert into byte format
+2023-04-25 14:52:50 ERROR HANlanguageClass:25 - NgramModel
+2023-04-25 14:52:50 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-25 14:52:50 INFO  LangdetectFromUnicode:90 - words send to ARABIC
+2023-04-25 14:52:54 INFO  ARABIClanguageClass:21 - Model is Loading...
+2023-04-25 14:52:56 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 14:52:59 INFO  NgramModel:24 - convert into byte format
+2023-04-25 14:53:02 INFO  NgramModel:28 - model ready
+2023-04-25 14:53:02 INFO  ARABIClanguageClass:25 - Model loaded!
+2023-04-25 14:53:02 INFO  ARABIClanguageClass:43 - ngrams counting completed.....
+2023-04-25 14:53:02 INFO  ARABIClanguageClass:49 - Arabic detected
+2023-04-25 14:53:02 INFO  MapperLanguageDetection:34 - Result write in file
+2023-04-25 14:53:10 INFO  LocalJobRunner:634 - map > map
+2023-04-25 14:53:11 INFO  MapTask:1477 - Starting flush of map output
+2023-04-25 14:53:11 INFO  MapTask:1499 - Spilling map output
+2023-04-25 14:53:11 INFO  MapTask:1500 - bufstart = 0; bufend = 279; bufvoid = 104857600
+2023-04-25 14:53:11 INFO  MapTask:1502 - kvstart = 26214396(104857584); kvend = 26214396(104857584); length = 1/6553600
+2023-04-25 14:53:13 INFO  LocalJobRunner:634 - map > sort
+2023-04-25 14:53:16 INFO  MapTask:1700 - Finished spill 0
+2023-04-25 14:53:16 INFO  Task:1244 - Task:attempt_local1196863802_0001_m_000000_0 is done. And is in the process of committing
+2023-04-25 14:53:16 INFO  LocalJobRunner:634 - map
+2023-04-25 14:53:16 INFO  Task:1380 - Task 'attempt_local1196863802_0001_m_000000_0' done.
+2023-04-25 14:53:16 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-25 14:53:17 INFO  Task:1276 - Final Counters for attempt_local1196863802_0001_m_000000_0: Counters: 17
+	File System Counters
+		FILE: Number of bytes read=240
+		FILE: Number of bytes written=616720
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=1
+		Map output records=1
+		Map output bytes=279
+		Map output materialized bytes=289
+		Input split bytes=126
+		Combine input records=0
+		Spilled Records=1
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=17427
+		Total committed heap usage (bytes)=10739515392
+	File Input Format Counters 
+		Bytes Read=60
+2023-04-25 14:53:17 INFO  LocalJobRunner:277 - Finishing task: attempt_local1196863802_0001_m_000000_0
+2023-04-25 14:53:17 INFO  LocalJobRunner:486 - map task executor complete.
+2023-04-25 14:53:18 INFO  LocalJobRunner:478 - Waiting for reduce tasks
+2023-04-25 14:53:18 INFO  LocalJobRunner:330 - Starting task: attempt_local1196863802_0001_r_000000_0
+2023-04-25 14:53:18 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-25 14:53:18 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-25 14:53:18 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-25 14:53:18 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-25 14:53:18 INFO  ReduceTask:363 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@36c3453e
+2023-04-25 14:53:19 WARN  MetricsSystemImpl:151 - JobTracker metrics system already initialized!
+2023-04-25 14:53:19 INFO  MergeManagerImpl:198 - The max number of bytes for a single in-memory shuffle cannot be larger than Integer.MAX_VALUE. Setting it to Integer.MAX_VALUE
+2023-04-25 14:53:19 INFO  MergeManagerImpl:208 - MergerManager: memoryLimit=9019430912, maxSingleShuffleLimit=2147483647, mergeThreshold=5952824832, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2023-04-25 14:53:19 INFO  EventFetcher:61 - attempt_local1196863802_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2023-04-25 14:53:20 INFO  LocalFetcher:147 - localfetcher#1 about to shuffle output of map attempt_local1196863802_0001_m_000000_0 decomp: 285 len: 289 to MEMORY
+2023-04-25 14:53:20 INFO  InMemoryMapOutput:94 - Read 285 bytes from map-output for attempt_local1196863802_0001_m_000000_0
+2023-04-25 14:53:20 INFO  MergeManagerImpl:323 - closeInMemoryFile -> map-output of size: 285, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->285
+2023-04-25 14:53:20 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2023-04-25 14:53:20 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-25 14:53:20 INFO  MergeManagerImpl:699 - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2023-04-25 14:53:20 INFO  Merger:607 - Merging 1 sorted segments
+2023-04-25 14:53:20 INFO  Merger:706 - Down to the last merge-pass, with 1 segments left of total size: 279 bytes
+2023-04-25 14:53:20 INFO  MergeManagerImpl:768 - Merged 1 segments, 285 bytes to disk to satisfy reduce memory limit
+2023-04-25 14:53:20 INFO  MergeManagerImpl:798 - Merging 1 files, 289 bytes from disk
+2023-04-25 14:53:20 INFO  MergeManagerImpl:813 - Merging 0 segments, 0 bytes from memory into reduce
+2023-04-25 14:53:20 INFO  Merger:607 - Merging 1 sorted segments
+2023-04-25 14:53:20 INFO  Merger:706 - Down to the last merge-pass, with 1 segments left of total size: 279 bytes
+2023-04-25 14:53:20 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-25 14:53:20 INFO  deprecation:1441 - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2023-04-25 14:53:20 INFO  Task:1244 - Task:attempt_local1196863802_0001_r_000000_0 is done. And is in the process of committing
+2023-04-25 14:53:20 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-25 14:53:20 INFO  Task:1421 - Task attempt_local1196863802_0001_r_000000_0 is allowed to commit now
+2023-04-25 14:53:20 INFO  FileOutputCommitter:609 - Saved output of task 'attempt_local1196863802_0001_r_000000_0' to file:/W:/MapperProject/src/main/java/LanguageDetection/output
+2023-04-25 14:53:20 INFO  LocalJobRunner:634 - reduce > reduce
+2023-04-25 14:53:20 INFO  Task:1380 - Task 'attempt_local1196863802_0001_r_000000_0' done.
+2023-04-25 14:53:20 INFO  Task:1276 - Final Counters for attempt_local1196863802_0001_r_000000_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=850
+		FILE: Number of bytes written=617298
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=289
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=1
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=10739515392
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=289
+2023-04-25 14:53:20 INFO  LocalJobRunner:353 - Finishing task: attempt_local1196863802_0001_r_000000_0
+2023-04-25 14:53:20 INFO  LocalJobRunner:486 - reduce task executor complete.
+2023-04-25 14:53:20 INFO  Job:1648 -  map 100% reduce 100%
+2023-04-25 14:53:20 INFO  Job:1659 - Job job_local1196863802_0001 completed successfully
+2023-04-25 14:53:21 INFO  Job:1666 - Counters: 30
+	File System Counters
+		FILE: Number of bytes read=1090
+		FILE: Number of bytes written=1234018
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=1
+		Map output records=1
+		Map output bytes=279
+		Map output materialized bytes=289
+		Input split bytes=126
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=289
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=2
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=17427
+		Total committed heap usage (bytes)=21479030784
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=60
+	File Output Format Counters 
+		Bytes Written=289
+2023-04-25 17:51:00 INFO  LangdetectFromUnicode:137 - Started..!
+2023-04-25 17:51:00 INFO  LangdetectFromUnicode:139 - File reading
+2023-04-25 17:51:00 INFO  LangdetectFromUnicode:123 - language detection Process started....
+2023-04-25 17:51:00 INFO  LangdetectFromUnicode:70 - word Splitting done....
+2023-04-25 17:51:00 INFO  LangdetectFromUnicode:79 - words send to LATIN
+2023-04-25 17:51:00 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-25 17:51:00 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 17:51:07 INFO  NgramModel:24 - convert into byte format
+2023-04-25 17:51:29 INFO  NgramModel:28 - model ready
+2023-04-25 17:51:29 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-25 17:51:29 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-25 17:51:29 INFO  LATINlanguageClass:49 - English detected
+2023-04-25 17:51:29 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-25 17:51:29 INFO  LATINlanguageClass:49 - French detected
+2023-04-25 17:51:29 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-25 17:51:29 INFO  LATINlanguageClass:49 - German detected
+2023-04-25 17:51:29 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-25 17:51:29 INFO  LangdetectFromUnicode:95 - words send to CYRILLIC
+2023-04-25 17:51:29 INFO  CyrillicLanguageClass:21 - Model is Loading...
+2023-04-25 17:51:29 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 17:51:30 INFO  NgramModel:24 - convert into byte format
+2023-04-25 17:51:32 INFO  NgramModel:28 - model ready
+2023-04-25 17:51:32 INFO  CyrillicLanguageClass:25 - Model loaded!
+2023-04-25 17:51:32 INFO  CyrillicLanguageClass:33 - Detecting Language..
+2023-04-25 17:51:32 INFO  CyrillicLanguageClass:44 - ngrams counting completed.....
+2023-04-25 17:51:32 INFO  CyrillicLanguageClass:50 - Russian detected
+2023-04-25 17:51:32 INFO  LangdetectFromUnicode:85 - words send to HAN
+2023-04-25 17:51:32 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-25 17:51:32 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 17:51:33 INFO  NgramModel:24 - convert into byte format
+2023-04-25 17:51:36 ERROR HANlanguageClass:25 - NgramModel
+2023-04-25 17:51:36 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-25 17:51:36 INFO  LangdetectFromUnicode:90 - words send to ARABIC
+2023-04-25 17:51:36 INFO  ARABIClanguageClass:21 - Model is Loading...
+2023-04-25 17:51:36 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 17:51:37 INFO  NgramModel:24 - convert into byte format
+2023-04-25 17:51:39 INFO  NgramModel:28 - model ready
+2023-04-25 17:51:39 INFO  ARABIClanguageClass:25 - Model loaded!
+2023-04-25 17:51:39 INFO  ARABIClanguageClass:43 - ngrams counting completed.....
+2023-04-25 17:51:39 INFO  ARABIClanguageClass:49 - Arabic detected
+2023-04-25 17:51:39 INFO  LangdetectFromUnicode:145 - Program run successfully..!
+2023-04-25 18:47:24 INFO  LangdetectFromUnicode:136 - Started..!
+2023-04-25 18:47:24 INFO  LangdetectFromUnicode:138 - File reading
+2023-04-25 18:47:24 INFO  LangdetectFromUnicode:122 - language detection Process started....
+2023-04-25 18:47:24 INFO  LangdetectFromUnicode:69 - word Splitting done....
+2023-04-25 18:47:24 INFO  LangdetectFromUnicode:78 - words send to LATIN
+2023-04-25 18:47:24 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-25 18:47:24 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 18:47:29 INFO  NgramModel:24 - convert into byte format
+2023-04-25 18:48:41 INFO  NgramModel:28 - model ready
+2023-04-25 18:48:42 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-25 18:48:43 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-25 18:48:44 INFO  LATINlanguageClass:49 - English detected
+2023-04-25 18:48:44 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-25 18:48:44 INFO  LATINlanguageClass:49 - French detected
+2023-04-25 18:48:44 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-25 18:48:44 INFO  LATINlanguageClass:49 - German detected
+2023-04-25 18:48:44 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-25 18:48:44 INFO  LangdetectFromUnicode:94 - words send to CYRILLIC
+2023-04-25 18:48:45 INFO  CyrillicLanguageClass:21 - Model is Loading...
+2023-04-25 18:48:45 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 18:48:45 INFO  NgramModel:24 - convert into byte format
+2023-04-25 18:48:48 INFO  NgramModel:28 - model ready
+2023-04-25 18:48:48 INFO  CyrillicLanguageClass:25 - Model loaded!
+2023-04-25 18:48:48 INFO  CyrillicLanguageClass:33 - Detecting Language..
+2023-04-25 18:48:48 INFO  CyrillicLanguageClass:44 - ngrams counting completed.....
+2023-04-25 18:48:48 INFO  CyrillicLanguageClass:50 - Russian detected
+2023-04-25 18:48:48 INFO  LangdetectFromUnicode:84 - words send to HAN
+2023-04-25 18:48:48 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-25 18:48:48 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 18:48:49 INFO  NgramModel:24 - convert into byte format
+2023-04-25 18:48:55 ERROR HANlanguageClass:25 - NgramModel
+2023-04-25 18:48:55 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-25 18:48:55 INFO  LangdetectFromUnicode:89 - words send to ARABIC
+2023-04-25 18:48:56 INFO  ARABIClanguageClass:21 - Model is Loading...
+2023-04-25 18:48:56 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-25 18:48:58 INFO  NgramModel:24 - convert into byte format
+2023-04-25 18:49:03 INFO  NgramModel:28 - model ready
+2023-04-25 18:49:03 INFO  ARABIClanguageClass:25 - Model loaded!
+2023-04-25 18:49:03 INFO  ARABIClanguageClass:43 - ngrams counting completed.....
+2023-04-25 18:49:03 INFO  ARABIClanguageClass:49 - Arabic detected
+2023-04-25 18:49:05 INFO  LangdetectFromUnicode:144 - Program run successfully..!
+2023-04-26 09:49:34 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:20)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 09:49:34 WARN  MetricsConfig:136 - Cannot locate configuration: tried hadoop-metrics2-jobtracker.properties,hadoop-metrics2.properties
+2023-04-26 09:49:34 INFO  MetricsSystemImpl:378 - Scheduled Metric snapshot period at 10 second(s).
+2023-04-26 09:49:34 INFO  MetricsSystemImpl:191 - JobTracker metrics system started
+2023-04-26 09:49:35 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 09:49:35 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 09:49:35 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 09:49:35 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 09:49:36 INFO  JobSubmitter:298 - Submitting tokens for job: job_local173752290_0001
+2023-04-26 09:49:36 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 09:49:36 INFO  Job:1575 - The url to track the job: http://localhost:8080/
+2023-04-26 09:49:36 INFO  Job:1620 - Running job: job_local173752290_0001
+2023-04-26 09:49:36 INFO  LocalJobRunner:501 - OutputCommitter set in config null
+2023-04-26 09:49:37 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-26 09:49:37 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-26 09:49:37 INFO  LocalJobRunner:519 - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2023-04-26 09:49:37 INFO  LocalJobRunner:478 - Waiting for map tasks
+2023-04-26 09:49:37 INFO  LocalJobRunner:252 - Starting task: attempt_local173752290_0001_m_000000_0
+2023-04-26 09:49:37 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-26 09:49:37 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-26 09:49:37 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-26 09:49:37 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-26 09:49:37 INFO  MapTask:769 - Processing split: file:/W:/MapperProject/src/main/java/LanguageDetection/input1:0+60
+2023-04-26 09:49:37 INFO  MapTask:1220 - (EQUATOR) 0 kvi 26214396(104857584)
+2023-04-26 09:49:37 INFO  MapTask:1013 - mapreduce.task.io.sort.mb: 100
+2023-04-26 09:49:37 INFO  MapTask:1014 - soft limit at 83886080
+2023-04-26 09:49:37 INFO  MapTask:1015 - bufstart = 0; bufvoid = 104857600
+2023-04-26 09:49:37 INFO  MapTask:1016 - kvstart = 26214396; length = 6553600
+2023-04-26 09:49:37 INFO  MapTask:410 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2023-04-26 09:49:37 INFO  MapperLanguageDetection:29 - Mapper Process Started....
+2023-04-26 09:49:37 INFO  LangdetectFromUnicode:122 - language detection Process started....
+2023-04-26 09:49:37 INFO  LangdetectFromUnicode:69 - word Splitting done....
+2023-04-26 09:49:37 INFO  LangdetectFromUnicode:78 - words send to LATIN
+2023-04-26 09:49:37 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-26 09:49:37 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-26 09:49:38 INFO  Job:1641 - Job job_local173752290_0001 running in uber mode : false
+2023-04-26 09:49:38 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 09:49:41 INFO  NgramModel:24 - convert into byte format
+2023-04-26 09:49:49 INFO  LocalJobRunner:634 - map > map
+2023-04-26 09:49:50 INFO  Job:1648 -  map 67% reduce 0%
+2023-04-26 09:49:58 INFO  NgramModel:28 - model ready
+2023-04-26 09:49:58 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-26 09:49:58 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-26 09:49:58 INFO  LATINlanguageClass:49 - English detected
+2023-04-26 09:49:58 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-26 09:49:58 INFO  LATINlanguageClass:49 - French detected
+2023-04-26 09:49:58 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-26 09:49:58 INFO  LATINlanguageClass:49 - German detected
+2023-04-26 09:49:58 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-26 09:49:58 INFO  LangdetectFromUnicode:94 - words send to CYRILLIC
+2023-04-26 09:49:58 INFO  CyrillicLanguageClass:21 - Model is Loading...
+2023-04-26 09:49:58 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-26 09:49:58 INFO  NgramModel:24 - convert into byte format
+2023-04-26 09:50:00 INFO  NgramModel:28 - model ready
+2023-04-26 09:50:00 INFO  CyrillicLanguageClass:25 - Model loaded!
+2023-04-26 09:50:00 INFO  CyrillicLanguageClass:33 - Detecting Language..
+2023-04-26 09:50:00 INFO  CyrillicLanguageClass:44 - ngrams counting completed.....
+2023-04-26 09:50:00 INFO  CyrillicLanguageClass:50 - Russian detected
+2023-04-26 09:50:00 INFO  LangdetectFromUnicode:84 - words send to HAN
+2023-04-26 09:50:00 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-26 09:50:00 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-26 09:50:01 INFO  NgramModel:24 - convert into byte format
+2023-04-26 09:50:03 ERROR HANlanguageClass:25 - NgramModel
+2023-04-26 09:50:03 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-26 09:50:03 INFO  LangdetectFromUnicode:89 - words send to ARABIC
+2023-04-26 09:50:03 INFO  ARABIClanguageClass:21 - Model is Loading...
+2023-04-26 09:50:03 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-26 09:50:03 INFO  NgramModel:24 - convert into byte format
+2023-04-26 09:50:05 INFO  NgramModel:28 - model ready
+2023-04-26 09:50:05 INFO  ARABIClanguageClass:25 - Model loaded!
+2023-04-26 09:50:05 INFO  ARABIClanguageClass:43 - ngrams counting completed.....
+2023-04-26 09:50:05 INFO  ARABIClanguageClass:49 - Arabic detected
+2023-04-26 09:50:05 INFO  MapperLanguageDetection:34 - Result write in file
+2023-04-26 09:50:05 INFO  LocalJobRunner:634 - map > map
+2023-04-26 09:50:05 INFO  MapTask:1477 - Starting flush of map output
+2023-04-26 09:50:05 INFO  MapTask:1499 - Spilling map output
+2023-04-26 09:50:05 INFO  MapTask:1500 - bufstart = 0; bufend = 279; bufvoid = 104857600
+2023-04-26 09:50:05 INFO  MapTask:1502 - kvstart = 26214396(104857584); kvend = 26214396(104857584); length = 1/6553600
+2023-04-26 09:50:05 INFO  MapTask:1700 - Finished spill 0
+2023-04-26 09:50:05 INFO  Task:1244 - Task:attempt_local173752290_0001_m_000000_0 is done. And is in the process of committing
+2023-04-26 09:50:05 INFO  LocalJobRunner:634 - map
+2023-04-26 09:50:05 INFO  Task:1380 - Task 'attempt_local173752290_0001_m_000000_0' done.
+2023-04-26 09:50:05 INFO  Task:1276 - Final Counters for attempt_local173752290_0001_m_000000_0: Counters: 17
+	File System Counters
+		FILE: Number of bytes read=240
+		FILE: Number of bytes written=613782
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=1
+		Map output records=1
+		Map output bytes=279
+		Map output materialized bytes=289
+		Input split bytes=126
+		Combine input records=0
+		Spilled Records=1
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=4150
+		Total committed heap usage (bytes)=10078912512
+	File Input Format Counters 
+		Bytes Read=60
+2023-04-26 09:50:05 INFO  LocalJobRunner:277 - Finishing task: attempt_local173752290_0001_m_000000_0
+2023-04-26 09:50:05 INFO  LocalJobRunner:486 - map task executor complete.
+2023-04-26 09:50:05 INFO  LocalJobRunner:478 - Waiting for reduce tasks
+2023-04-26 09:50:05 INFO  LocalJobRunner:330 - Starting task: attempt_local173752290_0001_r_000000_0
+2023-04-26 09:50:05 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-26 09:50:05 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-26 09:50:05 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-26 09:50:05 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-26 09:50:05 INFO  ReduceTask:363 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@33715fdf
+2023-04-26 09:50:05 WARN  MetricsSystemImpl:151 - JobTracker metrics system already initialized!
+2023-04-26 09:50:05 INFO  MergeManagerImpl:198 - The max number of bytes for a single in-memory shuffle cannot be larger than Integer.MAX_VALUE. Setting it to Integer.MAX_VALUE
+2023-04-26 09:50:05 INFO  MergeManagerImpl:208 - MergerManager: memoryLimit=9019430912, maxSingleShuffleLimit=2147483647, mergeThreshold=5952824832, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2023-04-26 09:50:05 INFO  EventFetcher:61 - attempt_local173752290_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2023-04-26 09:50:05 INFO  LocalFetcher:147 - localfetcher#1 about to shuffle output of map attempt_local173752290_0001_m_000000_0 decomp: 285 len: 289 to MEMORY
+2023-04-26 09:50:05 INFO  InMemoryMapOutput:94 - Read 285 bytes from map-output for attempt_local173752290_0001_m_000000_0
+2023-04-26 09:50:05 INFO  MergeManagerImpl:323 - closeInMemoryFile -> map-output of size: 285, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->285
+2023-04-26 09:50:05 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2023-04-26 09:50:05 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-26 09:50:05 INFO  MergeManagerImpl:699 - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2023-04-26 09:50:05 INFO  Merger:607 - Merging 1 sorted segments
+2023-04-26 09:50:05 INFO  Merger:706 - Down to the last merge-pass, with 1 segments left of total size: 279 bytes
+2023-04-26 09:50:05 INFO  MergeManagerImpl:768 - Merged 1 segments, 285 bytes to disk to satisfy reduce memory limit
+2023-04-26 09:50:05 INFO  MergeManagerImpl:798 - Merging 1 files, 289 bytes from disk
+2023-04-26 09:50:05 INFO  MergeManagerImpl:813 - Merging 0 segments, 0 bytes from memory into reduce
+2023-04-26 09:50:05 INFO  Merger:607 - Merging 1 sorted segments
+2023-04-26 09:50:05 INFO  Merger:706 - Down to the last merge-pass, with 1 segments left of total size: 279 bytes
+2023-04-26 09:50:05 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-26 09:50:05 INFO  deprecation:1441 - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2023-04-26 09:50:05 INFO  Task:1244 - Task:attempt_local173752290_0001_r_000000_0 is done. And is in the process of committing
+2023-04-26 09:50:05 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-26 09:50:05 INFO  Task:1421 - Task attempt_local173752290_0001_r_000000_0 is allowed to commit now
+2023-04-26 09:50:06 INFO  FileOutputCommitter:609 - Saved output of task 'attempt_local173752290_0001_r_000000_0' to file:/W:/MapperProject/src/main/java/LanguageDetection/output2345
+2023-04-26 09:50:06 INFO  LocalJobRunner:634 - reduce > reduce
+2023-04-26 09:50:06 INFO  Task:1380 - Task 'attempt_local173752290_0001_r_000000_0' done.
+2023-04-26 09:50:06 INFO  Task:1276 - Final Counters for attempt_local173752290_0001_r_000000_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=850
+		FILE: Number of bytes written=614360
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=289
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=1
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=10078912512
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=289
+2023-04-26 09:50:06 INFO  LocalJobRunner:353 - Finishing task: attempt_local173752290_0001_r_000000_0
+2023-04-26 09:50:06 INFO  LocalJobRunner:486 - reduce task executor complete.
+2023-04-26 09:50:06 INFO  Job:1648 -  map 100% reduce 100%
+2023-04-26 09:50:06 INFO  Job:1659 - Job job_local173752290_0001 completed successfully
+2023-04-26 09:50:06 INFO  Job:1666 - Counters: 30
+	File System Counters
+		FILE: Number of bytes read=1090
+		FILE: Number of bytes written=1228142
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=1
+		Map output records=1
+		Map output bytes=279
+		Map output materialized bytes=289
+		Input split bytes=126
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=289
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=2
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=4150
+		Total committed heap usage (bytes)=20157825024
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=60
+	File Output Format Counters 
+		Bytes Written=289
+2023-04-26 10:00:05 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:24)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 10:00:11 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 10:02:54 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:24)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 10:02:56 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 10:03:27 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:24)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 10:03:28 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 10:03:29 WARN  NativeIO:611 - NativeIO.getStat error (3): The system cannot find the path specified.
+ -- file path: tmp/hadoop-yarn/staging/TJAVA11/.staging
+2023-04-26 10:05:11 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:24)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 10:05:12 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 10:05:14 WARN  NativeIO:611 - NativeIO.getStat error (3): The system cannot find the path specified.
+ -- file path: tmp/hadoop-yarn/staging/TJAVA11/.staging
+2023-04-26 10:06:08 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:24)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 10:06:08 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 10:06:09 WARN  NativeIO:611 - NativeIO.getStat error (3): The system cannot find the path specified.
+ -- file path: tmp/hadoop-yarn/staging/TJAVA11/.staging
+2023-04-26 10:08:55 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:24)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 10:08:59 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 10:09:01 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 10:09:01 INFO  JobResourceUploader:906 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/TJAVA11/.staging/job_1682482119888_0001
+2023-04-26 10:09:01 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 10:09:01 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 10:09:03 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 10:09:04 INFO  JobSubmitter:298 - Submitting tokens for job: job_1682482119888_0001
+2023-04-26 10:09:04 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 10:09:05 INFO  YARNRunner:427 - Job jar is not present. Not adding any jar to the list of resources.
+2023-04-26 10:09:05 INFO  Configuration:2845 - resource-types.xml not found
+2023-04-26 10:09:05 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2023-04-26 10:09:06 INFO  YarnClientImpl:338 - Submitted application application_1682482119888_0001
+2023-04-26 10:09:06 INFO  Job:1575 - The url to track the job: http://TJAVA1:8088/proxy/application_1682482119888_0001/
+2023-04-26 10:09:06 INFO  Job:1620 - Running job: job_1682482119888_0001
+2023-04-26 10:09:31 INFO  Job:1641 - Job job_1682482119888_0001 running in uber mode : false
+2023-04-26 10:09:31 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 10:09:47 INFO  Job:1687 - Task Id : attempt_1682482119888_0001_m_000000_0, Status : FAILED
+2023-04-26 10:09:59 INFO  Job:1687 - Task Id : attempt_1682482119888_0001_m_000000_1, Status : FAILED
+2023-04-26 10:10:11 INFO  Job:1687 - Task Id : attempt_1682482119888_0001_m_000000_2, Status : FAILED
+2023-04-26 10:10:25 INFO  Job:1648 -  map 100% reduce 100%
+2023-04-26 10:10:26 INFO  Job:1661 - Job job_1682482119888_0001 failed with state FAILED due to: Task failed task_1682482119888_0001_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0 killedMaps:0 killedReduces: 0
+
+2023-04-26 10:10:27 INFO  Job:1666 - Counters: 10
+	Job Counters 
+		Failed map tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Other local map tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=45588
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=45588
+		Total vcore-milliseconds taken by all map tasks=45588
+		Total megabyte-milliseconds taken by all map tasks=46682112
+2023-04-26 10:13:54 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:24)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 10:14:00 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 10:14:41 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:24)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 10:14:46 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 10:14:48 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 10:14:48 INFO  JobResourceUploader:906 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/TJAVA11/.staging/job_1682482119888_0002
+2023-04-26 10:14:48 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 10:14:48 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 10:14:49 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 10:14:50 INFO  JobSubmitter:298 - Submitting tokens for job: job_1682482119888_0002
+2023-04-26 10:14:50 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 10:14:50 INFO  YARNRunner:427 - Job jar is not present. Not adding any jar to the list of resources.
+2023-04-26 10:14:51 INFO  Configuration:2845 - resource-types.xml not found
+2023-04-26 10:14:51 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2023-04-26 10:14:51 INFO  YarnClientImpl:338 - Submitted application application_1682482119888_0002
+2023-04-26 10:14:51 INFO  Job:1575 - The url to track the job: http://TJAVA1:8088/proxy/application_1682482119888_0002/
+2023-04-26 10:14:51 INFO  Job:1620 - Running job: job_1682482119888_0002
+2023-04-26 10:15:19 INFO  Job:1641 - Job job_1682482119888_0002 running in uber mode : false
+2023-04-26 10:15:19 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 10:16:00 INFO  Job:1687 - Task Id : attempt_1682482119888_0002_m_000000_0, Status : FAILED
+2023-04-26 10:16:29 INFO  Job:1687 - Task Id : attempt_1682482119888_0002_m_000000_1, Status : FAILED
+2023-04-26 10:17:03 INFO  Job:1687 - Task Id : attempt_1682482119888_0002_m_000000_2, Status : FAILED
+2023-04-26 10:17:29 INFO  Job:1648 -  map 100% reduce 100%
+2023-04-26 10:17:30 INFO  Job:1661 - Job job_1682482119888_0002 failed with state FAILED due to: Task failed task_1682482119888_0002_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0 killedMaps:0 killedReduces: 0
+
+2023-04-26 10:17:30 INFO  Job:1666 - Counters: 13
+	Job Counters 
+		Failed map tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Other local map tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=117490
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=117490
+		Total vcore-milliseconds taken by all map tasks=117490
+		Total megabyte-milliseconds taken by all map tasks=120309760
+	Map-Reduce Framework
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+2023-04-26 10:19:37 INFO  Models:18 - model loading....
+2023-04-26 10:19:37 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-26 10:19:40 INFO  NgramModel:24 - convert into byte format
+2023-04-26 10:23:10 INFO  Models:18 - model loading....
+2023-04-26 10:23:10 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-26 10:23:11 INFO  NgramModel:24 - convert into byte format
+2023-04-26 10:25:45 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:27)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 10:25:46 WARN  MetricsConfig:136 - Cannot locate configuration: tried hadoop-metrics2-jobtracker.properties,hadoop-metrics2.properties
+2023-04-26 10:25:47 INFO  MetricsSystemImpl:378 - Scheduled Metric snapshot period at 10 second(s).
+2023-04-26 10:25:47 INFO  MetricsSystemImpl:191 - JobTracker metrics system started
+2023-04-26 10:25:48 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 10:25:48 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 10:25:48 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 10:25:48 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 10:25:49 INFO  JobSubmitter:298 - Submitting tokens for job: job_local1482987167_0001
+2023-04-26 10:25:49 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 10:25:51 INFO  Job:1575 - The url to track the job: http://localhost:8080/
+2023-04-26 10:25:51 INFO  Job:1620 - Running job: job_local1482987167_0001
+2023-04-26 10:25:51 INFO  LocalJobRunner:501 - OutputCommitter set in config null
+2023-04-26 10:25:51 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-26 10:25:51 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-26 10:25:51 INFO  LocalJobRunner:519 - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2023-04-26 10:25:51 INFO  LocalJobRunner:478 - Waiting for map tasks
+2023-04-26 10:25:51 INFO  LocalJobRunner:252 - Starting task: attempt_local1482987167_0001_m_000000_0
+2023-04-26 10:25:51 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-26 10:25:51 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-26 10:25:51 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-26 10:25:51 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-26 10:25:51 INFO  MapTask:769 - Processing split: file:/W:/MapperProject/src/main/java/LanguageDetection/input1:0+122
+2023-04-26 10:25:51 INFO  MapTask:1220 - (EQUATOR) 0 kvi 26214396(104857584)
+2023-04-26 10:25:51 INFO  MapTask:1013 - mapreduce.task.io.sort.mb: 100
+2023-04-26 10:25:51 INFO  MapTask:1014 - soft limit at 83886080
+2023-04-26 10:25:51 INFO  MapTask:1015 - bufstart = 0; bufvoid = 104857600
+2023-04-26 10:25:51 INFO  MapTask:1016 - kvstart = 26214396; length = 6553600
+2023-04-26 10:25:51 INFO  MapTask:410 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2023-04-26 10:25:51 INFO  MapperLanguageDetection:29 - Mapper Process Started....
+2023-04-26 10:25:52 INFO  LangdetectFromUnicode:122 - language detection Process started....
+2023-04-26 10:25:52 INFO  LangdetectFromUnicode:69 - word Splitting done....
+2023-04-26 10:25:52 INFO  LangdetectFromUnicode:78 - words send to LATIN
+2023-04-26 10:25:52 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-26 10:25:52 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-26 10:25:52 INFO  Job:1641 - Job job_local1482987167_0001 running in uber mode : false
+2023-04-26 10:25:52 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 10:25:53 INFO  NgramModel:24 - convert into byte format
+2023-04-26 10:26:03 INFO  LocalJobRunner:634 - map > map
+2023-04-26 10:26:04 INFO  Job:1648 -  map 34% reduce 0%
+2023-04-26 10:26:15 INFO  NgramModel:28 - model ready
+2023-04-26 10:26:15 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-26 10:26:15 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-26 10:26:15 INFO  LATINlanguageClass:49 - English detected
+2023-04-26 10:26:15 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-26 10:26:15 INFO  LATINlanguageClass:49 - French detected
+2023-04-26 10:26:15 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-26 10:26:15 INFO  LATINlanguageClass:49 - German detected
+2023-04-26 10:26:15 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-26 10:26:15 INFO  LangdetectFromUnicode:94 - words send to CYRILLIC
+2023-04-26 10:26:15 INFO  CyrillicLanguageClass:21 - Model is Loading...
+2023-04-26 10:26:15 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-26 10:26:15 INFO  NgramModel:24 - convert into byte format
+2023-04-26 10:26:18 INFO  NgramModel:28 - model ready
+2023-04-26 10:26:18 INFO  CyrillicLanguageClass:25 - Model loaded!
+2023-04-26 10:26:18 INFO  CyrillicLanguageClass:33 - Detecting Language..
+2023-04-26 10:26:18 INFO  CyrillicLanguageClass:44 - ngrams counting completed.....
+2023-04-26 10:26:18 INFO  CyrillicLanguageClass:50 - Russian detected
+2023-04-26 10:26:18 INFO  LangdetectFromUnicode:84 - words send to HAN
+2023-04-26 10:26:18 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-26 10:26:18 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-26 10:26:19 INFO  NgramModel:24 - convert into byte format
+2023-04-26 10:26:23 ERROR HANlanguageClass:25 - NgramModel
+2023-04-26 10:26:23 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-26 10:26:23 INFO  LangdetectFromUnicode:89 - words send to ARABIC
+2023-04-26 10:26:23 INFO  ARABIClanguageClass:21 - Model is Loading...
+2023-04-26 10:26:23 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-26 10:26:23 INFO  NgramModel:24 - convert into byte format
+2023-04-26 10:26:25 INFO  NgramModel:28 - model ready
+2023-04-26 10:26:25 INFO  ARABIClanguageClass:25 - Model loaded!
+2023-04-26 10:26:25 INFO  ARABIClanguageClass:43 - ngrams counting completed.....
+2023-04-26 10:26:25 INFO  ARABIClanguageClass:49 - Arabic detected
+2023-04-26 10:26:26 INFO  MapperLanguageDetection:34 - Result write in file
+2023-04-26 10:26:26 INFO  MapperLanguageDetection:29 - Mapper Process Started....
+2023-04-26 10:26:26 INFO  LangdetectFromUnicode:122 - language detection Process started....
+2023-04-26 10:26:26 INFO  LangdetectFromUnicode:69 - word Splitting done....
+2023-04-26 10:26:26 INFO  LangdetectFromUnicode:78 - words send to LATIN
+2023-04-26 10:26:26 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-26 10:26:26 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-26 10:26:27 INFO  NgramModel:24 - convert into byte format
+2023-04-26 10:26:34 INFO  LocalJobRunner:634 - map > map
+2023-04-26 10:26:35 INFO  Job:1648 -  map 67% reduce 0%
+2023-04-26 10:26:44 INFO  NgramModel:28 - model ready
+2023-04-26 10:26:44 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-26 10:26:44 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-26 10:26:44 INFO  LATINlanguageClass:49 - English detected
+2023-04-26 10:26:44 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-26 10:26:44 INFO  LATINlanguageClass:49 - French detected
+2023-04-26 10:26:44 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-26 10:26:44 INFO  LATINlanguageClass:49 - German detected
+2023-04-26 10:26:44 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-26 10:26:44 INFO  LangdetectFromUnicode:94 - words send to CYRILLIC
+2023-04-26 10:26:44 INFO  CyrillicLanguageClass:21 - Model is Loading...
+2023-04-26 10:26:44 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-26 10:26:44 INFO  NgramModel:24 - convert into byte format
+2023-04-26 10:26:46 INFO  NgramModel:28 - model ready
+2023-04-26 10:26:46 INFO  CyrillicLanguageClass:25 - Model loaded!
+2023-04-26 10:26:46 INFO  CyrillicLanguageClass:33 - Detecting Language..
+2023-04-26 10:26:46 INFO  CyrillicLanguageClass:44 - ngrams counting completed.....
+2023-04-26 10:26:46 INFO  CyrillicLanguageClass:50 - Russian detected
+2023-04-26 10:26:46 INFO  LangdetectFromUnicode:84 - words send to HAN
+2023-04-26 10:26:46 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-26 10:26:46 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-26 10:26:46 INFO  NgramModel:24 - convert into byte format
+2023-04-26 10:26:47 ERROR HANlanguageClass:25 - NgramModel
+2023-04-26 10:26:47 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-26 10:26:47 INFO  LangdetectFromUnicode:89 - words send to ARABIC
+2023-04-26 10:26:47 INFO  ARABIClanguageClass:21 - Model is Loading...
+2023-04-26 10:26:47 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-26 10:26:47 INFO  NgramModel:24 - convert into byte format
+2023-04-26 10:26:49 INFO  NgramModel:28 - model ready
+2023-04-26 10:26:49 INFO  ARABIClanguageClass:25 - Model loaded!
+2023-04-26 10:26:49 INFO  ARABIClanguageClass:43 - ngrams counting completed.....
+2023-04-26 10:26:49 INFO  ARABIClanguageClass:49 - Arabic detected
+2023-04-26 10:26:49 INFO  MapperLanguageDetection:34 - Result write in file
+2023-04-26 10:26:49 INFO  LocalJobRunner:634 - map > map
+2023-04-26 10:26:49 INFO  MapTask:1477 - Starting flush of map output
+2023-04-26 10:26:49 INFO  MapTask:1499 - Spilling map output
+2023-04-26 10:26:49 INFO  MapTask:1500 - bufstart = 0; bufend = 558; bufvoid = 104857600
+2023-04-26 10:26:49 INFO  MapTask:1502 - kvstart = 26214396(104857584); kvend = 26214392(104857568); length = 5/6553600
+2023-04-26 10:26:54 INFO  MapTask:1700 - Finished spill 0
+2023-04-26 10:26:54 INFO  Task:1244 - Task:attempt_local1482987167_0001_m_000000_0 is done. And is in the process of committing
+2023-04-26 10:26:54 INFO  LocalJobRunner:634 - map
+2023-04-26 10:26:54 INFO  Task:1380 - Task 'attempt_local1482987167_0001_m_000000_0' done.
+2023-04-26 10:26:54 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-26 10:26:54 INFO  Task:1276 - Final Counters for attempt_local1482987167_0001_m_000000_0: Counters: 17
+	File System Counters
+		FILE: Number of bytes read=302
+		FILE: Number of bytes written=617005
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Map output bytes=558
+		Map output materialized bytes=572
+		Input split bytes=126
+		Combine input records=0
+		Spilled Records=2
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=10706
+		Total committed heap usage (bytes)=11983126528
+	File Input Format Counters 
+		Bytes Read=122
+2023-04-26 10:26:54 INFO  LocalJobRunner:277 - Finishing task: attempt_local1482987167_0001_m_000000_0
+2023-04-26 10:26:54 INFO  LocalJobRunner:486 - map task executor complete.
+2023-04-26 10:26:54 INFO  LocalJobRunner:478 - Waiting for reduce tasks
+2023-04-26 10:26:54 INFO  LocalJobRunner:330 - Starting task: attempt_local1482987167_0001_r_000000_0
+2023-04-26 10:26:55 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-26 10:26:55 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-26 10:26:55 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-26 10:26:55 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-26 10:26:55 INFO  ReduceTask:363 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@7c7bf4dd
+2023-04-26 10:26:55 WARN  MetricsSystemImpl:151 - JobTracker metrics system already initialized!
+2023-04-26 10:26:55 INFO  MergeManagerImpl:198 - The max number of bytes for a single in-memory shuffle cannot be larger than Integer.MAX_VALUE. Setting it to Integer.MAX_VALUE
+2023-04-26 10:26:55 INFO  MergeManagerImpl:208 - MergerManager: memoryLimit=9019430912, maxSingleShuffleLimit=2147483647, mergeThreshold=5952824832, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2023-04-26 10:26:55 INFO  EventFetcher:61 - attempt_local1482987167_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2023-04-26 10:26:56 INFO  LocalFetcher:147 - localfetcher#1 about to shuffle output of map attempt_local1482987167_0001_m_000000_0 decomp: 568 len: 572 to MEMORY
+2023-04-26 10:26:56 INFO  InMemoryMapOutput:94 - Read 568 bytes from map-output for attempt_local1482987167_0001_m_000000_0
+2023-04-26 10:26:56 INFO  MergeManagerImpl:323 - closeInMemoryFile -> map-output of size: 568, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->568
+2023-04-26 10:26:56 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2023-04-26 10:26:56 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-26 10:26:56 INFO  MergeManagerImpl:699 - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2023-04-26 10:26:56 INFO  Merger:607 - Merging 1 sorted segments
+2023-04-26 10:26:56 INFO  Merger:706 - Down to the last merge-pass, with 1 segments left of total size: 562 bytes
+2023-04-26 10:26:56 INFO  MergeManagerImpl:768 - Merged 1 segments, 568 bytes to disk to satisfy reduce memory limit
+2023-04-26 10:26:56 INFO  MergeManagerImpl:798 - Merging 1 files, 572 bytes from disk
+2023-04-26 10:26:56 INFO  MergeManagerImpl:813 - Merging 0 segments, 0 bytes from memory into reduce
+2023-04-26 10:26:56 INFO  Merger:607 - Merging 1 sorted segments
+2023-04-26 10:26:56 INFO  Merger:706 - Down to the last merge-pass, with 1 segments left of total size: 562 bytes
+2023-04-26 10:26:56 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-26 10:26:56 INFO  deprecation:1441 - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2023-04-26 10:26:56 INFO  Task:1244 - Task:attempt_local1482987167_0001_r_000000_0 is done. And is in the process of committing
+2023-04-26 10:26:57 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-26 10:26:57 INFO  Task:1421 - Task attempt_local1482987167_0001_r_000000_0 is allowed to commit now
+2023-04-26 10:26:57 INFO  FileOutputCommitter:609 - Saved output of task 'attempt_local1482987167_0001_r_000000_0' to file:/W:/MapperProject/src/main/java/LanguageDetection/output2
+2023-04-26 10:26:57 INFO  LocalJobRunner:634 - reduce > reduce
+2023-04-26 10:26:57 INFO  Task:1380 - Task 'attempt_local1482987167_0001_r_000000_0' done.
+2023-04-26 10:26:57 INFO  Task:1276 - Final Counters for attempt_local1482987167_0001_r_000000_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=1478
+		FILE: Number of bytes written=618147
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=2
+		Reduce shuffle bytes=572
+		Reduce input records=2
+		Reduce output records=2
+		Spilled Records=2
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=11983126528
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=570
+2023-04-26 10:26:57 INFO  LocalJobRunner:353 - Finishing task: attempt_local1482987167_0001_r_000000_0
+2023-04-26 10:26:57 INFO  LocalJobRunner:486 - reduce task executor complete.
+2023-04-26 10:26:57 INFO  Job:1648 -  map 100% reduce 100%
+2023-04-26 10:26:57 INFO  Job:1659 - Job job_local1482987167_0001 completed successfully
+2023-04-26 10:26:57 INFO  Job:1666 - Counters: 30
+	File System Counters
+		FILE: Number of bytes read=1780
+		FILE: Number of bytes written=1235152
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Map output bytes=558
+		Map output materialized bytes=572
+		Input split bytes=126
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=2
+		Reduce shuffle bytes=572
+		Reduce input records=2
+		Reduce output records=2
+		Spilled Records=4
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=10706
+		Total committed heap usage (bytes)=23966253056
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=122
+	File Output Format Counters 
+		Bytes Written=570
+2023-04-26 10:38:55 INFO  Models:18 - model loading....
+2023-04-26 10:38:55 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-26 10:39:00 INFO  NgramModel:24 - convert into byte format
+2023-04-26 10:40:08 INFO  Models:18 - model loading....
+2023-04-26 10:40:08 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-26 10:40:10 INFO  NgramModel:24 - convert into byte format
+2023-04-26 10:43:19 INFO  Models:22 - model loading....
+2023-04-26 10:43:19 INFO  NgramModel:22 - Ngram Model Process running
+2023-04-26 10:43:21 INFO  NgramModel:24 - convert into byte format
+2023-04-26 11:01:06 INFO  LangdetectFromUnicode:136 - Started..!
+2023-04-26 11:01:06 INFO  LangdetectFromUnicode:138 - File reading
+2023-04-26 11:01:06 INFO  LangdetectFromUnicode:122 - language detection Process started....
+2023-04-26 11:01:06 INFO  LangdetectFromUnicode:69 - word Splitting done....
+2023-04-26 11:01:06 INFO  LangdetectFromUnicode:78 - words send to LATIN
+2023-04-26 11:01:06 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-26 11:01:06 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:01:12 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:01:34 INFO  NgramModel:33 - model ready
+2023-04-26 11:01:34 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-26 11:01:34 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-26 11:01:34 INFO  LATINlanguageClass:49 - English detected
+2023-04-26 11:01:34 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-26 11:01:34 INFO  LATINlanguageClass:49 - French detected
+2023-04-26 11:01:34 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-26 11:01:34 INFO  LATINlanguageClass:49 - German detected
+2023-04-26 11:01:34 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-26 11:01:34 INFO  LangdetectFromUnicode:94 - words send to CYRILLIC
+2023-04-26 11:01:36 INFO  CyrillicLanguageClass:21 - Model is Loading...
+2023-04-26 11:01:36 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:01:38 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:01:40 INFO  NgramModel:33 - model ready
+2023-04-26 11:01:40 INFO  CyrillicLanguageClass:25 - Model loaded!
+2023-04-26 11:01:40 INFO  CyrillicLanguageClass:33 - Detecting Language..
+2023-04-26 11:01:40 INFO  CyrillicLanguageClass:44 - ngrams counting completed.....
+2023-04-26 11:01:40 INFO  CyrillicLanguageClass:50 - Russian detected
+2023-04-26 11:01:40 INFO  LangdetectFromUnicode:84 - words send to HAN
+2023-04-26 11:01:42 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-26 11:01:42 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:01:44 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:01:48 ERROR HANlanguageClass:25 - NgramModel
+2023-04-26 11:01:48 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-26 11:01:48 INFO  LangdetectFromUnicode:89 - words send to ARABIC
+2023-04-26 11:01:49 INFO  NgramModel:38 - Ngram Model Process running
+2023-04-26 11:01:50 INFO  NgramModel:40 - convert into byte format
+2023-04-26 11:01:53 INFO  LangdetectFromUnicode:144 - Program run successfully..!
+2023-04-26 11:03:05 INFO  LangdetectFromUnicode:136 - Started..!
+2023-04-26 11:03:05 INFO  LangdetectFromUnicode:138 - File reading
+2023-04-26 11:03:05 INFO  LangdetectFromUnicode:122 - language detection Process started....
+2023-04-26 11:03:05 INFO  LangdetectFromUnicode:69 - word Splitting done....
+2023-04-26 11:03:05 INFO  LangdetectFromUnicode:78 - words send to LATIN
+2023-04-26 11:03:05 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-26 11:03:05 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:03:10 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:03:10 ERROR LATINlanguageClass:27 - LanguageDetection.NgramModel; local class incompatible: stream classdesc serialVersionUID = 3181620556363962390, local class serialVersionUID = 5626883799178244336
+2023-04-26 11:03:10 ERROR LATINlanguageClass:59 - NullPointerException..!
+2023-04-26 11:03:10 INFO  LangdetectFromUnicode:94 - words send to CYRILLIC
+2023-04-26 11:03:10 INFO  CyrillicLanguageClass:21 - Model is Loading...
+2023-04-26 11:03:10 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:03:11 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:03:11 ERROR CyrillicLanguageClass:27 - LanguageDetection.NgramModel; local class incompatible: stream classdesc serialVersionUID = 3181620556363962390, local class serialVersionUID = 5626883799178244336
+2023-04-26 11:03:11 ERROR CyrillicLanguageClass:61 - 
+2023-04-26 11:03:11 INFO  LangdetectFromUnicode:84 - words send to HAN
+2023-04-26 11:03:11 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-26 11:03:11 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:03:11 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:03:16 ERROR HANlanguageClass:25 - NgramModel
+2023-04-26 11:03:16 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-26 11:03:16 INFO  LangdetectFromUnicode:89 - words send to ARABIC
+2023-04-26 11:03:16 INFO  NgramModel:38 - Ngram Model Process running
+2023-04-26 11:03:16 INFO  NgramModel:40 - convert into byte format
+2023-04-26 11:03:19 INFO  NgramModel:44 - model ready
+2023-04-26 11:03:19 INFO  ARABIClanguageClass:34 - ngrams counting completed.....
+2023-04-26 11:03:19 INFO  ARABIClanguageClass:40 - Arabic detected
+2023-04-26 11:03:19 INFO  LangdetectFromUnicode:144 - Program run successfully..!
+2023-04-26 11:06:00 INFO  LangdetectFromUnicode:134 - Started..!
+2023-04-26 11:06:00 INFO  LangdetectFromUnicode:136 - File reading
+2023-04-26 11:06:00 INFO  LangdetectFromUnicode:120 - language detection Process started....
+2023-04-26 11:06:01 INFO  LangdetectFromUnicode:67 - word Splitting done....
+2023-04-26 11:06:01 INFO  LangdetectFromUnicode:76 - words send to LATIN
+2023-04-26 11:06:01 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-26 11:06:01 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:06:03 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:06:03 ERROR LATINlanguageClass:27 - LanguageDetection.NgramModel; local class incompatible: stream classdesc serialVersionUID = 3181620556363962390, local class serialVersionUID = 5626883799178244336
+2023-04-26 11:06:03 ERROR LATINlanguageClass:59 - NullPointerException..!
+2023-04-26 11:06:03 INFO  LangdetectFromUnicode:92 - words send to CYRILLIC
+2023-04-26 11:06:03 INFO  NgramModel:38 - Ngram Model Process running
+2023-04-26 11:06:03 INFO  NgramModel:40 - convert into byte format
+2023-04-26 11:06:03 INFO  LangdetectFromUnicode:82 - words send to HAN
+2023-04-26 11:06:03 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-26 11:06:03 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:06:03 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:06:07 ERROR HANlanguageClass:25 - NgramModel
+2023-04-26 11:06:07 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-26 11:06:07 INFO  LangdetectFromUnicode:87 - words send to ARABIC
+2023-04-26 11:06:07 INFO  NgramModel:38 - Ngram Model Process running
+2023-04-26 11:06:07 INFO  NgramModel:40 - convert into byte format
+2023-04-26 11:06:09 INFO  NgramModel:44 - model ready
+2023-04-26 11:06:09 INFO  ARABIClanguageClass:34 - ngrams counting completed.....
+2023-04-26 11:06:09 INFO  ARABIClanguageClass:40 - Arabic detected
+2023-04-26 11:06:09 INFO  LangdetectFromUnicode:142 - Program run successfully..!
+2023-04-26 11:06:58 INFO  LangdetectFromUnicode:134 - Started..!
+2023-04-26 11:06:58 INFO  LangdetectFromUnicode:136 - File reading
+2023-04-26 11:06:58 INFO  LangdetectFromUnicode:120 - language detection Process started....
+2023-04-26 11:06:58 INFO  LangdetectFromUnicode:67 - word Splitting done....
+2023-04-26 11:06:58 INFO  LangdetectFromUnicode:76 - words send to LATIN
+2023-04-26 11:06:58 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-26 11:06:58 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:06:59 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:07:28 INFO  NgramModel:33 - model ready
+2023-04-26 11:07:28 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-26 11:07:28 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-26 11:07:28 INFO  LATINlanguageClass:49 - English detected
+2023-04-26 11:07:28 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-26 11:07:28 INFO  LATINlanguageClass:49 - French detected
+2023-04-26 11:07:28 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-26 11:07:28 INFO  LATINlanguageClass:49 - German detected
+2023-04-26 11:07:28 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-26 11:07:28 INFO  LangdetectFromUnicode:92 - words send to CYRILLIC
+2023-04-26 11:07:28 INFO  NgramModel:38 - Ngram Model Process running
+2023-04-26 11:07:29 INFO  NgramModel:40 - convert into byte format
+2023-04-26 11:07:30 INFO  NgramModel:44 - model ready
+2023-04-26 11:07:30 INFO  CyrillicLanguageClass:37 - Detecting Language..
+2023-04-26 11:07:30 INFO  CyrillicLanguageClass:48 - ngrams counting completed.....
+2023-04-26 11:07:30 INFO  CyrillicLanguageClass:54 - Russian detected
+2023-04-26 11:07:30 INFO  LangdetectFromUnicode:82 - words send to HAN
+2023-04-26 11:07:30 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-26 11:07:30 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:07:31 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:07:48 ERROR HANlanguageClass:25 - NgramModel
+2023-04-26 11:07:49 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-26 11:07:49 INFO  LangdetectFromUnicode:87 - words send to ARABIC
+2023-04-26 11:07:49 INFO  NgramModel:38 - Ngram Model Process running
+2023-04-26 11:07:52 INFO  NgramModel:40 - convert into byte format
+2023-04-26 11:07:52 INFO  LangdetectFromUnicode:142 - Program run successfully..!
+2023-04-26 11:10:11 INFO  LangdetectFromUnicode:134 - Started..!
+2023-04-26 11:10:11 INFO  LangdetectFromUnicode:136 - File reading
+2023-04-26 11:10:11 INFO  LangdetectFromUnicode:120 - language detection Process started....
+2023-04-26 11:10:11 INFO  LangdetectFromUnicode:67 - word Splitting done....
+2023-04-26 11:10:11 INFO  LangdetectFromUnicode:76 - words send to LATIN
+2023-04-26 11:10:11 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-26 11:10:11 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:10:16 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:10:58 INFO  NgramModel:33 - model ready
+2023-04-26 11:10:58 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-26 11:10:58 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-26 11:10:58 INFO  LATINlanguageClass:49 - English detected
+2023-04-26 11:10:58 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-26 11:10:58 INFO  LATINlanguageClass:49 - French detected
+2023-04-26 11:10:58 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-26 11:10:58 INFO  LATINlanguageClass:49 - German detected
+2023-04-26 11:10:58 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-26 11:10:58 INFO  LangdetectFromUnicode:92 - words send to CYRILLIC
+2023-04-26 11:10:58 INFO  NgramModel:38 - Ngram Model Process running
+2023-04-26 11:11:01 INFO  NgramModel:40 - convert into byte format
+2023-04-26 11:11:05 INFO  NgramModel:44 - model ready
+2023-04-26 11:11:05 INFO  CyrillicLanguageClass:37 - Detecting Language..
+2023-04-26 11:11:05 INFO  CyrillicLanguageClass:48 - ngrams counting completed.....
+2023-04-26 11:11:05 INFO  CyrillicLanguageClass:54 - Russian detected
+2023-04-26 11:11:05 INFO  LangdetectFromUnicode:82 - words send to HAN
+2023-04-26 11:11:05 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-26 11:11:05 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:11:08 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:11:16 ERROR HANlanguageClass:25 - NgramModel
+2023-04-26 11:11:16 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-26 11:11:16 INFO  LangdetectFromUnicode:87 - words send to ARABIC
+2023-04-26 11:11:20 INFO  NgramModel:19 - Ngram Model Process running
+2023-04-26 11:11:23 INFO  NgramModel:21 - convert into byte format
+2023-04-26 11:11:25 INFO  LangdetectFromUnicode:142 - Program run successfully..!
+2023-04-26 11:15:46 INFO  LangdetectFromUnicode:134 - Started..!
+2023-04-26 11:15:46 INFO  LangdetectFromUnicode:136 - File reading
+2023-04-26 11:15:46 INFO  LangdetectFromUnicode:120 - language detection Process started....
+2023-04-26 11:15:46 INFO  LangdetectFromUnicode:67 - word Splitting done....
+2023-04-26 11:15:46 INFO  LangdetectFromUnicode:76 - words send to LATIN
+2023-04-26 11:15:46 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-26 11:15:46 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:15:51 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:16:27 INFO  NgramModel:33 - model ready
+2023-04-26 11:16:27 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-26 11:16:27 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-26 11:16:27 INFO  LATINlanguageClass:49 - English detected
+2023-04-26 11:16:27 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-26 11:16:27 INFO  LATINlanguageClass:49 - French detected
+2023-04-26 11:16:27 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-26 11:16:27 INFO  LATINlanguageClass:49 - German detected
+2023-04-26 11:16:27 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-26 11:16:27 INFO  LangdetectFromUnicode:92 - words send to CYRILLIC
+2023-04-26 11:16:27 INFO  NgramModel:38 - Ngram Model Process running
+2023-04-26 11:16:28 INFO  NgramModel:40 - convert into byte format
+2023-04-26 11:16:32 INFO  NgramModel:44 - model ready
+2023-04-26 11:16:32 INFO  CyrillicLanguageClass:37 - Detecting Language..
+2023-04-26 11:16:32 INFO  CyrillicLanguageClass:48 - ngrams counting completed.....
+2023-04-26 11:16:32 INFO  CyrillicLanguageClass:54 - Russian detected
+2023-04-26 11:16:32 INFO  LangdetectFromUnicode:82 - words send to HAN
+2023-04-26 11:16:32 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-26 11:16:32 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:16:32 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:16:35 ERROR HANlanguageClass:25 - NgramModel
+2023-04-26 11:16:35 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-26 11:16:35 INFO  LangdetectFromUnicode:87 - words send to ARABIC
+2023-04-26 11:16:35 INFO  ArabicModel:20 - Ngram Model Process running
+2023-04-26 11:16:37 INFO  ArabicModel:22 - convert into byte format
+2023-04-26 11:16:37 INFO  LangdetectFromUnicode:142 - Program run successfully..!
+2023-04-26 11:18:23 INFO  LangdetectFromUnicode:134 - Started..!
+2023-04-26 11:18:23 INFO  LangdetectFromUnicode:136 - File reading
+2023-04-26 11:18:23 INFO  LangdetectFromUnicode:120 - language detection Process started....
+2023-04-26 11:18:23 INFO  LangdetectFromUnicode:67 - word Splitting done....
+2023-04-26 11:18:23 INFO  LangdetectFromUnicode:76 - words send to LATIN
+2023-04-26 11:18:23 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-26 11:18:23 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:18:27 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:18:54 INFO  NgramModel:33 - model ready
+2023-04-26 11:18:54 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-26 11:18:54 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-26 11:18:54 INFO  LATINlanguageClass:49 - English detected
+2023-04-26 11:18:54 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-26 11:18:54 INFO  LATINlanguageClass:49 - French detected
+2023-04-26 11:18:54 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-26 11:18:54 INFO  LATINlanguageClass:49 - German detected
+2023-04-26 11:18:54 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-26 11:18:54 INFO  LangdetectFromUnicode:92 - words send to CYRILLIC
+2023-04-26 11:18:54 INFO  NgramModel:38 - Ngram Model Process running
+2023-04-26 11:18:55 INFO  NgramModel:40 - convert into byte format
+2023-04-26 11:19:08 INFO  NgramModel:44 - model ready
+2023-04-26 11:19:08 INFO  CyrillicLanguageClass:37 - Detecting Language..
+2023-04-26 11:19:08 INFO  CyrillicLanguageClass:48 - ngrams counting completed.....
+2023-04-26 11:19:08 INFO  CyrillicLanguageClass:54 - Russian detected
+2023-04-26 11:19:08 INFO  LangdetectFromUnicode:82 - words send to HAN
+2023-04-26 11:19:08 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-26 11:19:08 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:19:10 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:19:15 ERROR HANlanguageClass:25 - NgramModel
+2023-04-26 11:19:15 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-26 11:19:15 INFO  LangdetectFromUnicode:87 - words send to ARABIC
+2023-04-26 11:19:15 INFO  NgramModelArabic:38 - Ngram Model Process running
+2023-04-26 11:19:17 INFO  NgramModelArabic:40 - convert into byte format
+2023-04-26 11:19:20 INFO  LangdetectFromUnicode:142 - Program run successfully..!
+2023-04-26 11:21:15 INFO  LangdetectFromUnicode:134 - Started..!
+2023-04-26 11:21:15 INFO  LangdetectFromUnicode:136 - File reading
+2023-04-26 11:21:15 INFO  LangdetectFromUnicode:120 - language detection Process started....
+2023-04-26 11:21:15 INFO  LangdetectFromUnicode:67 - word Splitting done....
+2023-04-26 11:21:15 INFO  LangdetectFromUnicode:76 - words send to LATIN
+2023-04-26 11:21:15 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-26 11:21:15 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:21:20 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:21:51 INFO  NgramModel:33 - model ready
+2023-04-26 11:21:51 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-26 11:21:51 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-26 11:21:51 INFO  LATINlanguageClass:49 - English detected
+2023-04-26 11:21:51 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-26 11:21:51 INFO  LATINlanguageClass:49 - French detected
+2023-04-26 11:21:51 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-26 11:21:51 INFO  LATINlanguageClass:49 - German detected
+2023-04-26 11:21:51 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-26 11:21:51 INFO  LangdetectFromUnicode:92 - words send to CYRILLIC
+2023-04-26 11:21:51 INFO  NgramModel:38 - Ngram Model Process running
+2023-04-26 11:21:52 INFO  NgramModel:40 - convert into byte format
+2023-04-26 11:21:56 INFO  NgramModel:44 - model ready
+2023-04-26 11:21:56 INFO  CyrillicLanguageClass:37 - Detecting Language..
+2023-04-26 11:21:56 INFO  CyrillicLanguageClass:48 - ngrams counting completed.....
+2023-04-26 11:21:56 INFO  CyrillicLanguageClass:54 - Russian detected
+2023-04-26 11:21:56 INFO  LangdetectFromUnicode:82 - words send to HAN
+2023-04-26 11:21:56 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-26 11:21:56 INFO  NgramModel:27 - Ngram Model Process running
+2023-04-26 11:21:58 INFO  NgramModel:29 - convert into byte format
+2023-04-26 11:22:04 ERROR HANlanguageClass:25 - NgramModel
+2023-04-26 11:22:04 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-26 11:22:04 INFO  LangdetectFromUnicode:87 - words send to ARABIC
+2023-04-26 11:22:04 INFO  NgramModelArabic:35 - Ngram Model Process running
+2023-04-26 11:22:05 INFO  NgramModelArabic:37 - convert into byte format
+2023-04-26 11:22:05 INFO  LangdetectFromUnicode:142 - Program run successfully..!
+2023-04-26 11:51:03 INFO  LangdetectFromUnicode:134 - Started..!
+2023-04-26 11:51:03 INFO  LangdetectFromUnicode:136 - File reading
+2023-04-26 11:51:03 INFO  LangdetectFromUnicode:120 - language detection Process started....
+2023-04-26 11:51:03 INFO  LangdetectFromUnicode:67 - word Splitting done....
+2023-04-26 11:51:03 INFO  LangdetectFromUnicode:76 - words send to LATIN
+2023-04-26 11:51:03 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-26 11:51:03 INFO  NgramModel:25 - Ngram Model Process running
+2023-04-26 11:51:08 INFO  NgramModel:27 - convert into byte format
+2023-04-26 11:51:57 INFO  NgramModel:31 - model ready
+2023-04-26 11:52:04 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-26 11:52:07 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-26 11:52:08 INFO  LATINlanguageClass:49 - English detected
+2023-04-26 11:52:08 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-26 11:52:08 INFO  LATINlanguageClass:49 - French detected
+2023-04-26 11:52:08 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-26 11:52:08 INFO  LATINlanguageClass:49 - German detected
+2023-04-26 11:52:08 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-26 11:52:08 INFO  LangdetectFromUnicode:92 - words send to CYRILLIC
+2023-04-26 11:52:09 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 11:52:09 INFO  NgramModel:38 - convert into byte format
+2023-04-26 11:52:11 INFO  NgramModel:42 - model ready
+2023-04-26 11:52:11 INFO  CyrillicLanguageClass:37 - Detecting Language..
+2023-04-26 11:52:11 INFO  CyrillicLanguageClass:48 - ngrams counting completed.....
+2023-04-26 11:52:11 INFO  CyrillicLanguageClass:54 - Russian detected
+2023-04-26 11:52:11 INFO  LangdetectFromUnicode:82 - words send to HAN
+2023-04-26 11:52:11 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-26 11:52:11 INFO  NgramModel:25 - Ngram Model Process running
+2023-04-26 11:52:12 INFO  NgramModel:27 - convert into byte format
+2023-04-26 11:52:23 ERROR HANlanguageClass:25 - NgramModel
+2023-04-26 11:52:23 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-26 11:52:23 INFO  LangdetectFromUnicode:87 - words send to ARABIC
+2023-04-26 11:52:23 INFO  NgramModelArabic:35 - Ngram Model Process running
+2023-04-26 11:52:28 INFO  NgramModelArabic:37 - convert into byte format
+2023-04-26 11:55:47 INFO  LangdetectFromUnicode:134 - Started..!
+2023-04-26 11:55:47 INFO  LangdetectFromUnicode:136 - File reading
+2023-04-26 11:55:47 INFO  LangdetectFromUnicode:120 - language detection Process started....
+2023-04-26 11:55:47 INFO  LangdetectFromUnicode:67 - word Splitting done....
+2023-04-26 11:55:47 INFO  LangdetectFromUnicode:76 - words send to LATIN
+2023-04-26 11:55:47 INFO  LATINlanguageClass:21 - Model is Loading...
+2023-04-26 11:55:47 INFO  NgramModel:25 - Ngram Model Process running
+2023-04-26 11:55:53 INFO  NgramModel:27 - convert into byte format
+2023-04-26 11:56:28 INFO  NgramModel:31 - model ready
+2023-04-26 11:56:29 INFO  LATINlanguageClass:25 - Model loaded!
+2023-04-26 11:56:29 INFO  LATINlanguageClass:43 - ngrams counting completed.....
+2023-04-26 11:56:45 INFO  LATINlanguageClass:49 - English detected
+2023-04-26 11:56:45 INFO  LATINlanguageClass:49 - Italian detected
+2023-04-26 11:56:45 INFO  LATINlanguageClass:49 - French detected
+2023-04-26 11:56:45 INFO  LATINlanguageClass:49 - Spanish detected
+2023-04-26 11:56:45 INFO  LATINlanguageClass:49 - German detected
+2023-04-26 11:56:45 INFO  LATINlanguageClass:49 - Dutch detected
+2023-04-26 11:56:45 INFO  LangdetectFromUnicode:92 - words send to CYRILLIC
+2023-04-26 11:56:46 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 11:56:47 INFO  NgramModel:38 - convert into byte format
+2023-04-26 11:56:49 INFO  NgramModel:42 - model ready
+2023-04-26 11:56:49 INFO  CyrillicLanguageClass:37 - Detecting Language..
+2023-04-26 11:56:49 INFO  CyrillicLanguageClass:48 - ngrams counting completed.....
+2023-04-26 11:56:49 INFO  CyrillicLanguageClass:54 - Russian detected
+2023-04-26 11:56:49 INFO  LangdetectFromUnicode:82 - words send to HAN
+2023-04-26 11:56:49 INFO  HANlanguageClass:19 - Model is Loading...
+2023-04-26 11:56:49 INFO  NgramModel:25 - Ngram Model Process running
+2023-04-26 11:56:54 INFO  NgramModel:27 - convert into byte format
+2023-04-26 11:57:00 ERROR HANlanguageClass:25 - NgramModel
+2023-04-26 11:57:00 ERROR HANlanguageClass:64 - NullPointerException..!
+2023-04-26 11:57:00 INFO  LangdetectFromUnicode:87 - words send to ARABIC
+2023-04-26 11:57:03 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 11:57:05 INFO  NgramModel:38 - convert into byte format
+2023-04-26 11:57:10 INFO  NgramModel:42 - model ready
+2023-04-26 11:57:18 INFO  ARABIClanguageClass:33 - ngrams counting completed.....
+2023-04-26 11:57:19 INFO  ARABIClanguageClass:39 - Arabic detected
+2023-04-26 11:57:19 INFO  LangdetectFromUnicode:142 - Program run successfully..!

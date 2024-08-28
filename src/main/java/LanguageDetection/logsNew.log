@@ -1,0 +1,1730 @@
+2023-04-26 12:06:24 INFO  LangdetectFromUnicode:134 - Started..!
+2023-04-26 12:06:24 INFO  LangdetectFromUnicode:136 - File reading
+2023-04-26 12:06:24 INFO  LangdetectFromUnicode:120 - language detection Process started....
+2023-04-26 12:06:24 INFO  LangdetectFromUnicode:67 - word Splitting done....
+2023-04-26 12:06:24 INFO  LangdetectFromUnicode:76 - words send to LATIN
+2023-04-26 12:06:24 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 12:06:29 INFO  NgramModel:38 - convert into byte format
+2023-04-26 12:07:02 INFO  NgramModel:42 - model ready
+2023-04-26 12:07:02 INFO  LATINlanguageClass:45 - ngrams counting completed.....
+2023-04-26 12:07:02 INFO  LATINlanguageClass:51 - English detected
+2023-04-26 12:07:02 INFO  LATINlanguageClass:51 - Italian detected
+2023-04-26 12:07:02 INFO  LATINlanguageClass:51 - French detected
+2023-04-26 12:07:02 INFO  LATINlanguageClass:51 - Spanish detected
+2023-04-26 12:07:02 INFO  LATINlanguageClass:51 - German detected
+2023-04-26 12:07:02 INFO  LATINlanguageClass:51 - Dutch detected
+2023-04-26 12:07:02 INFO  LangdetectFromUnicode:92 - words send to CYRILLIC
+2023-04-26 12:07:02 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 12:07:03 INFO  NgramModel:38 - convert into byte format
+2023-04-26 12:07:13 INFO  NgramModel:42 - model ready
+2023-04-26 12:07:13 INFO  CyrillicLanguageClass:40 - Detecting Language..
+2023-04-26 12:07:13 INFO  CyrillicLanguageClass:51 - ngrams counting completed.....
+2023-04-26 12:07:13 INFO  CyrillicLanguageClass:57 - Russian detected
+2023-04-26 12:07:13 INFO  LangdetectFromUnicode:82 - words send to HAN
+2023-04-26 12:07:13 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 12:07:16 INFO  NgramModel:38 - convert into byte format
+2023-04-26 12:07:37 INFO  LangdetectFromUnicode:87 - words send to ARABIC
+2023-04-26 12:07:37 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 12:07:40 INFO  NgramModel:38 - convert into byte format
+2023-04-26 12:07:50 INFO  NgramModel:42 - model ready
+2023-04-26 12:07:50 INFO  ARABIClanguageClass:34 - ngrams counting completed.....
+2023-04-26 12:07:50 INFO  ARABIClanguageClass:40 - Arabic detected
+2023-04-26 12:07:50 INFO  LangdetectFromUnicode:142 - Program run successfully..!
+2023-04-26 12:11:23 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:27)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 12:11:26 WARN  MetricsConfig:136 - Cannot locate configuration: tried hadoop-metrics2-jobtracker.properties,hadoop-metrics2.properties
+2023-04-26 12:11:27 INFO  MetricsSystemImpl:378 - Scheduled Metric snapshot period at 10 second(s).
+2023-04-26 12:11:27 INFO  MetricsSystemImpl:191 - JobTracker metrics system started
+2023-04-26 12:11:28 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 12:11:28 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 12:11:28 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 12:11:29 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 12:11:29 INFO  JobSubmitter:298 - Submitting tokens for job: job_local1465965397_0001
+2023-04-26 12:11:29 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 12:11:31 INFO  Job:1575 - The url to track the job: http://localhost:8080/
+2023-04-26 12:11:31 INFO  Job:1620 - Running job: job_local1465965397_0001
+2023-04-26 12:11:31 INFO  LocalJobRunner:501 - OutputCommitter set in config null
+2023-04-26 12:11:31 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-26 12:11:31 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-26 12:11:31 INFO  LocalJobRunner:519 - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2023-04-26 12:11:31 INFO  LocalJobRunner:478 - Waiting for map tasks
+2023-04-26 12:11:31 INFO  LocalJobRunner:252 - Starting task: attempt_local1465965397_0001_m_000000_0
+2023-04-26 12:11:31 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-26 12:11:31 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-26 12:11:31 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-26 12:11:31 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-26 12:11:31 INFO  MapTask:769 - Processing split: file:/W:/MapperProject/src/main/java/LanguageDetection/input1:0+122
+2023-04-26 12:11:32 INFO  MapTask:1220 - (EQUATOR) 0 kvi 26214396(104857584)
+2023-04-26 12:11:32 INFO  MapTask:1013 - mapreduce.task.io.sort.mb: 100
+2023-04-26 12:11:32 INFO  MapTask:1014 - soft limit at 83886080
+2023-04-26 12:11:32 INFO  MapTask:1015 - bufstart = 0; bufvoid = 104857600
+2023-04-26 12:11:32 INFO  MapTask:1016 - kvstart = 26214396; length = 6553600
+2023-04-26 12:11:32 INFO  MapTask:410 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2023-04-26 12:11:32 INFO  Job:1641 - Job job_local1465965397_0001 running in uber mode : false
+2023-04-26 12:11:32 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 12:11:32 INFO  MapperLanguageDetection:29 - Mapper Process Started....
+2023-04-26 12:11:32 INFO  LangdetectFromUnicode:119 - language detection Process started....
+2023-04-26 12:11:32 INFO  LangdetectFromUnicode:67 - word Splitting done....
+2023-04-26 12:11:32 INFO  LangdetectFromUnicode:76 - words send to LATIN
+2023-04-26 12:11:32 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 12:11:33 INFO  NgramModel:38 - convert into byte format
+2023-04-26 12:11:44 INFO  LocalJobRunner:634 - map > map
+2023-04-26 12:11:44 INFO  Job:1648 -  map 34% reduce 0%
+2023-04-26 12:12:01 INFO  NgramModel:42 - model ready
+2023-04-26 12:12:01 INFO  LATINlanguageClass:45 - ngrams counting completed.....
+2023-04-26 12:12:01 INFO  LATINlanguageClass:51 - English detected
+2023-04-26 12:12:01 INFO  LATINlanguageClass:51 - Italian detected
+2023-04-26 12:12:01 INFO  LATINlanguageClass:51 - French detected
+2023-04-26 12:12:01 INFO  LATINlanguageClass:51 - Spanish detected
+2023-04-26 12:12:01 INFO  LATINlanguageClass:51 - German detected
+2023-04-26 12:12:01 INFO  LATINlanguageClass:51 - Dutch detected
+2023-04-26 12:12:01 INFO  LangdetectFromUnicode:92 - words send to CYRILLIC
+2023-04-26 12:12:01 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 12:12:02 INFO  NgramModel:38 - convert into byte format
+2023-04-26 12:12:04 INFO  NgramModel:42 - model ready
+2023-04-26 12:12:04 INFO  CyrillicLanguageClass:40 - Detecting Language..
+2023-04-26 12:12:04 INFO  CyrillicLanguageClass:51 - ngrams counting completed.....
+2023-04-26 12:12:04 INFO  CyrillicLanguageClass:57 - Russian detected
+2023-04-26 12:12:04 INFO  LangdetectFromUnicode:82 - words send to HAN
+2023-04-26 12:12:04 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 12:12:06 INFO  NgramModel:38 - convert into byte format
+2023-04-26 12:12:08 INFO  LangdetectFromUnicode:87 - words send to ARABIC
+2023-04-26 12:12:10 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 12:12:12 INFO  NgramModel:38 - convert into byte format
+2023-04-26 12:12:39 INFO  NgramModel:42 - model ready
+2023-04-26 12:12:39 INFO  ARABIClanguageClass:34 - ngrams counting completed.....
+2023-04-26 12:12:39 INFO  ARABIClanguageClass:40 - Arabic detected
+2023-04-26 12:12:39 INFO  MapperLanguageDetection:34 - Result write in file
+2023-04-26 12:12:39 INFO  MapperLanguageDetection:29 - Mapper Process Started....
+2023-04-26 12:12:40 INFO  LangdetectFromUnicode:119 - language detection Process started....
+2023-04-26 12:12:40 INFO  LangdetectFromUnicode:67 - word Splitting done....
+2023-04-26 12:12:40 INFO  LangdetectFromUnicode:76 - words send to LATIN
+2023-04-26 12:12:40 INFO  LATINlanguageClass:45 - ngrams counting completed.....
+2023-04-26 12:12:40 INFO  LATINlanguageClass:51 - English detected
+2023-04-26 12:12:40 INFO  LATINlanguageClass:51 - Italian detected
+2023-04-26 12:12:40 INFO  LATINlanguageClass:51 - French detected
+2023-04-26 12:12:40 INFO  LATINlanguageClass:51 - Spanish detected
+2023-04-26 12:12:40 INFO  LATINlanguageClass:51 - German detected
+2023-04-26 12:12:40 INFO  LATINlanguageClass:51 - Dutch detected
+2023-04-26 12:12:40 INFO  LangdetectFromUnicode:92 - words send to CYRILLIC
+2023-04-26 12:12:40 INFO  CyrillicLanguageClass:40 - Detecting Language..
+2023-04-26 12:12:40 INFO  CyrillicLanguageClass:51 - ngrams counting completed.....
+2023-04-26 12:12:40 INFO  CyrillicLanguageClass:57 - Russian detected
+2023-04-26 12:12:40 INFO  LangdetectFromUnicode:82 - words send to HAN
+2023-04-26 12:12:40 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 12:12:43 INFO  NgramModel:38 - convert into byte format
+2023-04-26 12:12:51 INFO  LocalJobRunner:634 - map > map
+2023-04-26 12:12:51 INFO  Job:1648 -  map 67% reduce 0%
+2023-04-26 12:13:00 INFO  LangdetectFromUnicode:87 - words send to ARABIC
+2023-04-26 12:13:00 INFO  ARABIClanguageClass:34 - ngrams counting completed.....
+2023-04-26 12:13:00 INFO  ARABIClanguageClass:40 - Arabic detected
+2023-04-26 12:13:00 INFO  MapperLanguageDetection:34 - Result write in file
+2023-04-26 12:13:02 INFO  LocalJobRunner:634 - map > map
+2023-04-26 12:13:02 INFO  MapTask:1477 - Starting flush of map output
+2023-04-26 12:13:03 INFO  MapTask:1499 - Spilling map output
+2023-04-26 12:13:03 INFO  MapTask:1500 - bufstart = 0; bufend = 558; bufvoid = 104857600
+2023-04-26 12:13:03 INFO  MapTask:1502 - kvstart = 26214396(104857584); kvend = 26214392(104857568); length = 5/6553600
+2023-04-26 12:13:09 INFO  LocalJobRunner:634 - map > sort
+2023-04-26 12:13:10 INFO  MapTask:1700 - Finished spill 0
+2023-04-26 12:13:10 INFO  Task:1244 - Task:attempt_local1465965397_0001_m_000000_0 is done. And is in the process of committing
+2023-04-26 12:13:10 INFO  LocalJobRunner:634 - map
+2023-04-26 12:13:10 INFO  Task:1380 - Task 'attempt_local1465965397_0001_m_000000_0' done.
+2023-04-26 12:13:10 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-26 12:13:11 INFO  Task:1276 - Final Counters for attempt_local1465965397_0001_m_000000_0: Counters: 17
+	File System Counters
+		FILE: Number of bytes read=302
+		FILE: Number of bytes written=617005
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Map output bytes=558
+		Map output materialized bytes=572
+		Input split bytes=126
+		Combine input records=0
+		Spilled Records=2
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=16548
+		Total committed heap usage (bytes)=11173625856
+	File Input Format Counters 
+		Bytes Read=122
+2023-04-26 12:13:11 INFO  LocalJobRunner:277 - Finishing task: attempt_local1465965397_0001_m_000000_0
+2023-04-26 12:13:11 INFO  LocalJobRunner:486 - map task executor complete.
+2023-04-26 12:13:11 INFO  LocalJobRunner:478 - Waiting for reduce tasks
+2023-04-26 12:13:11 INFO  LocalJobRunner:330 - Starting task: attempt_local1465965397_0001_r_000000_0
+2023-04-26 12:13:11 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-26 12:13:11 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-26 12:13:11 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-26 12:13:11 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-26 12:13:11 INFO  ReduceTask:363 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@720234d6
+2023-04-26 12:13:11 WARN  MetricsSystemImpl:151 - JobTracker metrics system already initialized!
+2023-04-26 12:13:11 INFO  MergeManagerImpl:198 - The max number of bytes for a single in-memory shuffle cannot be larger than Integer.MAX_VALUE. Setting it to Integer.MAX_VALUE
+2023-04-26 12:13:11 INFO  MergeManagerImpl:208 - MergerManager: memoryLimit=9019430912, maxSingleShuffleLimit=2147483647, mergeThreshold=5952824832, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2023-04-26 12:13:11 INFO  EventFetcher:61 - attempt_local1465965397_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2023-04-26 12:13:12 INFO  LocalFetcher:147 - localfetcher#1 about to shuffle output of map attempt_local1465965397_0001_m_000000_0 decomp: 568 len: 572 to MEMORY
+2023-04-26 12:13:12 INFO  InMemoryMapOutput:94 - Read 568 bytes from map-output for attempt_local1465965397_0001_m_000000_0
+2023-04-26 12:13:12 INFO  MergeManagerImpl:323 - closeInMemoryFile -> map-output of size: 568, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->568
+2023-04-26 12:13:12 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2023-04-26 12:13:12 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-26 12:13:12 INFO  MergeManagerImpl:699 - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2023-04-26 12:13:12 INFO  Merger:607 - Merging 1 sorted segments
+2023-04-26 12:13:12 INFO  Merger:706 - Down to the last merge-pass, with 1 segments left of total size: 562 bytes
+2023-04-26 12:13:12 INFO  MergeManagerImpl:768 - Merged 1 segments, 568 bytes to disk to satisfy reduce memory limit
+2023-04-26 12:13:12 INFO  MergeManagerImpl:798 - Merging 1 files, 572 bytes from disk
+2023-04-26 12:13:12 INFO  MergeManagerImpl:813 - Merging 0 segments, 0 bytes from memory into reduce
+2023-04-26 12:13:12 INFO  Merger:607 - Merging 1 sorted segments
+2023-04-26 12:13:12 INFO  Merger:706 - Down to the last merge-pass, with 1 segments left of total size: 562 bytes
+2023-04-26 12:13:12 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-26 12:13:12 INFO  deprecation:1441 - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2023-04-26 12:13:12 INFO  Task:1244 - Task:attempt_local1465965397_0001_r_000000_0 is done. And is in the process of committing
+2023-04-26 12:13:12 INFO  LocalJobRunner:634 - 1 / 1 copied.
+2023-04-26 12:13:12 INFO  Task:1421 - Task attempt_local1465965397_0001_r_000000_0 is allowed to commit now
+2023-04-26 12:13:12 INFO  FileOutputCommitter:609 - Saved output of task 'attempt_local1465965397_0001_r_000000_0' to file:/W:/MapperProject/src/main/java/LanguageDetection/output2
+2023-04-26 12:13:12 INFO  LocalJobRunner:634 - reduce > reduce
+2023-04-26 12:13:12 INFO  Task:1380 - Task 'attempt_local1465965397_0001_r_000000_0' done.
+2023-04-26 12:13:12 INFO  Task:1276 - Final Counters for attempt_local1465965397_0001_r_000000_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=1478
+		FILE: Number of bytes written=618147
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=2
+		Reduce shuffle bytes=572
+		Reduce input records=2
+		Reduce output records=2
+		Spilled Records=2
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=11173625856
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=570
+2023-04-26 12:13:12 INFO  LocalJobRunner:353 - Finishing task: attempt_local1465965397_0001_r_000000_0
+2023-04-26 12:13:12 INFO  LocalJobRunner:486 - reduce task executor complete.
+2023-04-26 12:13:12 INFO  Job:1648 -  map 100% reduce 100%
+2023-04-26 12:13:12 INFO  Job:1659 - Job job_local1465965397_0001 completed successfully
+2023-04-26 12:13:13 INFO  Job:1666 - Counters: 30
+	File System Counters
+		FILE: Number of bytes read=1780
+		FILE: Number of bytes written=1235152
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Map output bytes=558
+		Map output materialized bytes=572
+		Input split bytes=126
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=2
+		Reduce shuffle bytes=572
+		Reduce input records=2
+		Reduce output records=2
+		Spilled Records=4
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=16548
+		Total committed heap usage (bytes)=22347251712
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=122
+	File Output Format Counters 
+		Bytes Written=570
+2023-04-26 12:25:06 INFO  LangdetectFromUnicode:133 - Started..!
+2023-04-26 12:25:06 INFO  LangdetectFromUnicode:135 - File reading
+2023-04-26 12:25:07 INFO  LangdetectFromUnicode:119 - language detection Process started....
+2023-04-26 12:25:07 INFO  LangdetectFromUnicode:67 - word Splitting done....
+2023-04-26 12:25:07 INFO  LangdetectFromUnicode:76 - words send to LATIN
+2023-04-26 12:25:07 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 12:25:14 INFO  NgramModel:38 - convert into byte format
+2023-04-26 12:26:03 INFO  NgramModel:42 - model ready
+2023-04-26 12:26:03 INFO  LATINlanguageClass:45 - ngrams counting completed.....
+2023-04-26 12:26:07 INFO  LATINlanguageClass:51 - English detected
+2023-04-26 12:26:07 INFO  LATINlanguageClass:51 - Italian detected
+2023-04-26 12:26:07 INFO  LATINlanguageClass:51 - French detected
+2023-04-26 12:26:07 INFO  LATINlanguageClass:51 - Spanish detected
+2023-04-26 12:26:07 INFO  LATINlanguageClass:51 - German detected
+2023-04-26 12:26:07 INFO  LATINlanguageClass:51 - Dutch detected
+2023-04-26 12:26:07 INFO  LangdetectFromUnicode:92 - words send to CYRILLIC
+2023-04-26 12:26:07 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 12:26:07 INFO  NgramModel:38 - convert into byte format
+2023-04-26 12:26:11 INFO  NgramModel:42 - model ready
+2023-04-26 12:26:11 INFO  CyrillicLanguageClass:40 - Detecting Language..
+2023-04-26 12:26:11 INFO  CyrillicLanguageClass:51 - ngrams counting completed.....
+2023-04-26 12:26:11 INFO  CyrillicLanguageClass:57 - Russian detected
+2023-04-26 12:26:11 INFO  LangdetectFromUnicode:82 - words send to HAN
+2023-04-26 12:26:29 INFO  HANlanguageClass:33 - Japanese Model trained
+2023-04-26 12:26:40 INFO  HANlanguageClass:33 - Chinese Model trained
+2023-04-26 12:27:05 INFO  HANlanguageClass:74 - Chinese detected
+2023-04-26 12:27:05 INFO  LangdetectFromUnicode:87 - words send to ARABIC
+2023-04-26 12:27:05 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 12:27:06 INFO  NgramModel:38 - convert into byte format
+2023-04-26 12:27:09 INFO  NgramModel:42 - model ready
+2023-04-26 12:27:09 INFO  ARABIClanguageClass:34 - ngrams counting completed.....
+2023-04-26 12:27:10 INFO  ARABIClanguageClass:40 - Arabic detected
+2023-04-26 12:27:10 INFO  LangdetectFromUnicode:141 - Program run successfully..!
+2023-04-26 12:41:44 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:27)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 12:41:54 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 12:42:07 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 12:42:08 INFO  JobResourceUploader:906 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/TJAVA11/.staging/job_1682482119888_0003
+2023-04-26 12:42:09 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 12:42:26 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 12:42:53 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 12:42:58 INFO  JobSubmitter:298 - Submitting tokens for job: job_1682482119888_0003
+2023-04-26 12:42:58 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 12:43:02 INFO  YARNRunner:427 - Job jar is not present. Not adding any jar to the list of resources.
+2023-04-26 12:43:03 INFO  Configuration:2845 - resource-types.xml not found
+2023-04-26 12:43:03 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2023-04-26 12:43:10 INFO  YarnClientImpl:338 - Submitted application application_1682482119888_0003
+2023-04-26 12:43:11 INFO  Job:1575 - The url to track the job: http://TJAVA1:8088/proxy/application_1682482119888_0003/
+2023-04-26 12:43:11 INFO  Job:1620 - Running job: job_1682482119888_0003
+2023-04-26 12:45:54 INFO  Job:1641 - Job job_1682482119888_0003 running in uber mode : false
+2023-04-26 12:45:54 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 12:46:31 INFO  Job:1687 - Task Id : attempt_1682482119888_0003_m_000000_0, Status : FAILED
+2023-04-26 12:46:57 INFO  Job:1687 - Task Id : attempt_1682482119888_0003_m_000000_1, Status : FAILED
+2023-04-26 12:47:26 INFO  Job:1687 - Task Id : attempt_1682482119888_0003_m_000000_2, Status : FAILED
+2023-04-26 12:48:00 INFO  Job:1648 -  map 100% reduce 100%
+2023-04-26 12:48:04 INFO  Job:1661 - Job job_1682482119888_0003 failed with state FAILED due to: Task failed task_1682482119888_0003_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0 killedMaps:0 killedReduces: 0
+
+2023-04-26 12:48:05 INFO  Job:1666 - Counters: 10
+	Job Counters 
+		Failed map tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Other local map tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=105506
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=105506
+		Total vcore-milliseconds taken by all map tasks=105506
+		Total megabyte-milliseconds taken by all map tasks=108038144
+2023-04-26 12:49:32 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:27)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 12:49:46 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 12:50:00 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 12:50:01 INFO  JobResourceUploader:906 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/TJAVA11/.staging/job_1682482119888_0004
+2023-04-26 12:50:01 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 12:50:01 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 12:50:04 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 12:50:05 INFO  JobSubmitter:298 - Submitting tokens for job: job_1682482119888_0004
+2023-04-26 12:50:05 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 12:50:09 INFO  YARNRunner:427 - Job jar is not present. Not adding any jar to the list of resources.
+2023-04-26 12:50:10 INFO  Configuration:2845 - resource-types.xml not found
+2023-04-26 12:50:10 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2023-04-26 12:50:11 INFO  YarnClientImpl:338 - Submitted application application_1682482119888_0004
+2023-04-26 12:50:12 INFO  Job:1575 - The url to track the job: http://TJAVA1:8088/proxy/application_1682482119888_0004/
+2023-04-26 12:50:12 INFO  Job:1620 - Running job: job_1682482119888_0004
+2023-04-26 12:51:02 INFO  Job:1641 - Job job_1682482119888_0004 running in uber mode : false
+2023-04-26 12:51:02 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 12:51:46 INFO  Job:1648 -  map 33% reduce 0%
+2023-04-26 12:51:51 INFO  Job:1687 - Task Id : attempt_1682482119888_0004_m_000000_0, Status : FAILED
+2023-04-26 12:51:53 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 12:53:23 INFO  Job:1687 - Task Id : attempt_1682482119888_0004_m_000000_1, Status : FAILED
+2023-04-26 12:54:50 INFO  Job:1687 - Task Id : attempt_1682482119888_0004_m_000000_2, Status : FAILED
+2023-04-26 12:56:23 INFO  Job:1648 -  map 100% reduce 100%
+2023-04-26 12:56:29 INFO  Job:1661 - Job job_1682482119888_0004 failed with state FAILED due to: Task failed task_1682482119888_0004_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0 killedMaps:0 killedReduces: 0
+
+2023-04-26 12:56:30 INFO  Job:1666 - Counters: 13
+	Job Counters 
+		Failed map tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Other local map tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=309973
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=309973
+		Total vcore-milliseconds taken by all map tasks=309973
+		Total megabyte-milliseconds taken by all map tasks=317412352
+	Map-Reduce Framework
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+2023-04-26 14:08:01 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:27)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 14:08:10 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 14:08:13 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 14:08:13 INFO  JobResourceUploader:906 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/TJAVA11/.staging/job_1682482119888_0005
+2023-04-26 14:08:13 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 14:08:13 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 14:08:15 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 14:08:17 INFO  JobSubmitter:298 - Submitting tokens for job: job_1682482119888_0005
+2023-04-26 14:08:17 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 14:08:18 INFO  YARNRunner:427 - Job jar is not present. Not adding any jar to the list of resources.
+2023-04-26 14:08:18 INFO  Configuration:2845 - resource-types.xml not found
+2023-04-26 14:08:18 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2023-04-26 14:08:19 INFO  YarnClientImpl:338 - Submitted application application_1682482119888_0005
+2023-04-26 14:08:19 INFO  Job:1575 - The url to track the job: http://TJAVA1:8088/proxy/application_1682482119888_0005/
+2023-04-26 14:08:19 INFO  Job:1620 - Running job: job_1682482119888_0005
+2023-04-26 14:08:55 INFO  Job:1641 - Job job_1682482119888_0005 running in uber mode : false
+2023-04-26 14:08:55 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 14:10:02 INFO  Job:1687 - Task Id : attempt_1682482119888_0005_m_000000_0, Status : FAILED
+2023-04-26 14:11:23 INFO  Job:1687 - Task Id : attempt_1682482119888_0005_m_000000_1, Status : FAILED
+2023-04-26 14:12:03 INFO  Job:1687 - Task Id : attempt_1682482119888_0005_m_000000_2, Status : FAILED
+2023-04-26 14:12:51 INFO  Job:1648 -  map 33% reduce 0%
+2023-04-26 14:13:02 INFO  Job:1648 -  map 100% reduce 100%
+2023-04-26 14:13:09 INFO  Job:1661 - Job job_1682482119888_0005 failed with state FAILED due to: Task failed task_1682482119888_0005_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0 killedMaps:0 killedReduces: 0
+
+2023-04-26 14:13:10 INFO  Job:1666 - Counters: 13
+	Job Counters 
+		Failed map tasks=4
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Other local map tasks=3
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=234238
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=234238
+		Total vcore-milliseconds taken by all map tasks=234238
+		Total megabyte-milliseconds taken by all map tasks=239859712
+	Map-Reduce Framework
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+2023-04-26 14:30:10 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:30)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 14:30:22 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 14:31:11 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:30)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 14:31:18 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 14:31:21 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 14:31:21 INFO  JobResourceUploader:906 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/TJAVA11/.staging/job_1682482119888_0006
+2023-04-26 14:31:21 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 14:31:21 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 14:31:24 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 14:31:25 INFO  JobSubmitter:298 - Submitting tokens for job: job_1682482119888_0006
+2023-04-26 14:31:25 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 14:31:27 INFO  YARNRunner:427 - Job jar is not present. Not adding any jar to the list of resources.
+2023-04-26 14:31:28 INFO  Configuration:2845 - resource-types.xml not found
+2023-04-26 14:31:28 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2023-04-26 14:31:28 INFO  YarnClientImpl:338 - Submitted application application_1682482119888_0006
+2023-04-26 14:31:28 INFO  Job:1575 - The url to track the job: http://TJAVA1:8088/proxy/application_1682482119888_0006/
+2023-04-26 14:31:28 INFO  Job:1620 - Running job: job_1682482119888_0006
+2023-04-26 14:32:09 INFO  Job:1641 - Job job_1682482119888_0006 running in uber mode : false
+2023-04-26 14:32:09 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 14:32:46 INFO  Job:1648 -  map 33% reduce 0%
+2023-04-26 14:33:59 INFO  Job:1648 -  map 67% reduce 0%
+2023-04-26 14:34:37 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-26 14:35:05 INFO  Job:1648 -  map 100% reduce 100%
+2023-04-26 14:35:08 INFO  Job:1659 - Job job_1682482119888_0006 completed successfully
+2023-04-26 14:35:08 INFO  Job:1666 - Counters: 54
+	File System Counters
+		FILE: Number of bytes read=50
+		FILE: Number of bytes written=553265
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=239
+		HDFS: Number of bytes written=40
+		HDFS: Number of read operations=8
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=568548
+		Total time spent by all reduces in occupied slots (ms)=25282
+		Total time spent by all map tasks (ms)=142137
+		Total time spent by all reduce tasks (ms)=25282
+		Total vcore-milliseconds taken by all map tasks=142137
+		Total vcore-milliseconds taken by all reduce tasks=25282
+		Total megabyte-milliseconds taken by all map tasks=582193152
+		Total megabyte-milliseconds taken by all reduce tasks=25888768
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Map output bytes=40
+		Map output materialized bytes=50
+		Input split bytes=111
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=2
+		Reduce shuffle bytes=50
+		Reduce input records=2
+		Reduce output records=2
+		Spilled Records=4
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=23159
+		CPU time spent (ms)=144449
+		Physical memory (bytes) snapshot=4291915776
+		Virtual memory (bytes) snapshot=5179990016
+		Total committed heap usage (bytes)=4180672512
+		Peak Map Physical memory (bytes)=4072656896
+		Peak Map Virtual memory (bytes)=4178923520
+		Peak Reduce Physical memory (bytes)=248160256
+		Peak Reduce Virtual memory (bytes)=1004707840
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=128
+	File Output Format Counters 
+		Bytes Written=40
+2023-04-26 14:38:21 INFO  LangdetectFromUnicode:133 - Started..!
+2023-04-26 14:38:21 INFO  LangdetectFromUnicode:135 - File reading
+2023-04-26 14:38:21 INFO  LangdetectFromUnicode:119 - language detection Process started....
+2023-04-26 14:38:21 INFO  LangdetectFromUnicode:67 - word Splitting done....
+2023-04-26 14:38:21 INFO  LangdetectFromUnicode:141 - Program run successfully..!
+2023-04-26 14:43:48 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:30)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 14:43:56 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 14:44:01 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 14:44:01 INFO  JobResourceUploader:906 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/TJAVA11/.staging/job_1682482119888_0007
+2023-04-26 14:44:01 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 14:44:01 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 14:44:03 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 14:44:04 INFO  JobSubmitter:298 - Submitting tokens for job: job_1682482119888_0007
+2023-04-26 14:44:04 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 14:44:05 INFO  YARNRunner:427 - Job jar is not present. Not adding any jar to the list of resources.
+2023-04-26 14:44:05 INFO  Configuration:2845 - resource-types.xml not found
+2023-04-26 14:44:05 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2023-04-26 14:44:06 INFO  YarnClientImpl:338 - Submitted application application_1682482119888_0007
+2023-04-26 14:44:06 INFO  Job:1575 - The url to track the job: http://TJAVA1:8088/proxy/application_1682482119888_0007/
+2023-04-26 14:44:06 INFO  Job:1620 - Running job: job_1682482119888_0007
+2023-04-26 14:44:46 INFO  Job:1641 - Job job_1682482119888_0007 running in uber mode : false
+2023-04-26 14:44:46 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 14:45:31 INFO  Job:1648 -  map 33% reduce 0%
+2023-04-26 14:46:13 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-26 14:46:44 INFO  Job:1648 -  map 100% reduce 100%
+2023-04-26 14:46:46 INFO  Job:1659 - Job job_1682482119888_0007 completed successfully
+2023-04-26 14:46:46 INFO  Job:1666 - Counters: 54
+	File System Counters
+		FILE: Number of bytes read=50
+		FILE: Number of bytes written=553267
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=239
+		HDFS: Number of bytes written=40
+		HDFS: Number of read operations=8
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=326912
+		Total time spent by all reduces in occupied slots (ms)=28061
+		Total time spent by all map tasks (ms)=81728
+		Total time spent by all reduce tasks (ms)=28061
+		Total vcore-milliseconds taken by all map tasks=81728
+		Total vcore-milliseconds taken by all reduce tasks=28061
+		Total megabyte-milliseconds taken by all map tasks=334757888
+		Total megabyte-milliseconds taken by all reduce tasks=28734464
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Map output bytes=40
+		Map output materialized bytes=50
+		Input split bytes=111
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=2
+		Reduce shuffle bytes=50
+		Reduce input records=2
+		Reduce output records=2
+		Spilled Records=4
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=12458
+		CPU time spent (ms)=82729
+		Physical memory (bytes) snapshot=4286468096
+		Virtual memory (bytes) snapshot=5155962880
+		Total committed heap usage (bytes)=4153409536
+		Peak Map Physical memory (bytes)=4029808640
+		Peak Map Virtual memory (bytes)=4140777472
+		Peak Reduce Physical memory (bytes)=258605056
+		Peak Reduce Virtual memory (bytes)=1018036224
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=128
+	File Output Format Counters 
+		Bytes Written=40
+2023-04-26 14:48:35 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:30)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 14:48:45 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 14:48:48 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 14:48:48 INFO  JobResourceUploader:906 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/TJAVA11/.staging/job_1682482119888_0008
+2023-04-26 14:48:48 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 14:48:49 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 14:48:50 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 14:48:51 INFO  JobSubmitter:298 - Submitting tokens for job: job_1682482119888_0008
+2023-04-26 14:48:51 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 14:48:51 INFO  YARNRunner:427 - Job jar is not present. Not adding any jar to the list of resources.
+2023-04-26 14:48:52 INFO  Configuration:2845 - resource-types.xml not found
+2023-04-26 14:48:52 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2023-04-26 14:48:52 INFO  YarnClientImpl:338 - Submitted application application_1682482119888_0008
+2023-04-26 14:48:52 INFO  Job:1575 - The url to track the job: http://TJAVA1:8088/proxy/application_1682482119888_0008/
+2023-04-26 14:48:52 INFO  Job:1620 - Running job: job_1682482119888_0008
+2023-04-26 14:49:31 INFO  Job:1641 - Job job_1682482119888_0008 running in uber mode : false
+2023-04-26 14:49:31 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 14:50:13 INFO  Job:1648 -  map 49% reduce 0%
+2023-04-26 14:51:07 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-26 14:51:14 INFO  Job:1659 - Job job_1682482119888_0008 completed successfully
+2023-04-26 14:51:14 INFO  Job:1666 - Counters: 33
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=276421
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=239
+		HDFS: Number of bytes written=40
+		HDFS: Number of read operations=7
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=358476
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=89619
+		Total vcore-milliseconds taken by all map tasks=89619
+		Total megabyte-milliseconds taken by all map tasks=367079424
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Input split bytes=111
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=9239
+		CPU time spent (ms)=74905
+		Physical memory (bytes) snapshot=3868651520
+		Virtual memory (bytes) snapshot=3932418048
+		Total committed heap usage (bytes)=3127902208
+		Peak Map Physical memory (bytes)=3868651520
+		Peak Map Virtual memory (bytes)=3932418048
+	File Input Format Counters 
+		Bytes Read=128
+	File Output Format Counters 
+		Bytes Written=40
+2023-04-26 14:52:36 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:30)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 14:52:38 WARN  MetricsConfig:136 - Cannot locate configuration: tried hadoop-metrics2-jobtracker.properties,hadoop-metrics2.properties
+2023-04-26 14:52:38 INFO  MetricsSystemImpl:378 - Scheduled Metric snapshot period at 10 second(s).
+2023-04-26 14:52:38 INFO  MetricsSystemImpl:191 - JobTracker metrics system started
+2023-04-26 14:52:39 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 14:52:39 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 14:52:39 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 14:52:39 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 14:52:40 INFO  JobSubmitter:298 - Submitting tokens for job: job_local307641216_0001
+2023-04-26 14:52:40 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 14:52:41 INFO  Job:1575 - The url to track the job: http://localhost:8080/
+2023-04-26 14:52:41 INFO  Job:1620 - Running job: job_local307641216_0001
+2023-04-26 14:52:41 INFO  LocalJobRunner:501 - OutputCommitter set in config null
+2023-04-26 14:52:41 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-26 14:52:41 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-26 14:52:41 INFO  LocalJobRunner:519 - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2023-04-26 14:52:42 INFO  LocalJobRunner:478 - Waiting for map tasks
+2023-04-26 14:52:42 INFO  LocalJobRunner:252 - Starting task: attempt_local307641216_0001_m_000000_0
+2023-04-26 14:52:42 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-26 14:52:42 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-26 14:52:42 INFO  Job:1641 - Job job_local307641216_0001 running in uber mode : false
+2023-04-26 14:52:42 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 14:52:42 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-26 14:52:42 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-26 14:52:42 INFO  MapTask:769 - Processing split: file:/W:/Hardik/Final/Language_Detection/src/main/java/LanguageDetection/input1:0+128
+2023-04-26 14:52:43 INFO  MapperLanguageDetection:29 - Mapper Process Started....
+2023-04-26 14:52:43 INFO  LangdetectFromUnicode:119 - language detection Process started....
+2023-04-26 14:52:43 INFO  LangdetectFromUnicode:67 - word Splitting done....
+2023-04-26 14:52:43 INFO  MapperLanguageDetection:35 - Result write in file
+2023-04-26 14:52:43 INFO  MapperLanguageDetection:29 - Mapper Process Started....
+2023-04-26 14:52:43 INFO  LangdetectFromUnicode:119 - language detection Process started....
+2023-04-26 14:52:43 INFO  LangdetectFromUnicode:67 - word Splitting done....
+2023-04-26 14:52:43 INFO  MapperLanguageDetection:35 - Result write in file
+2023-04-26 14:52:43 INFO  LocalJobRunner:634 - 
+2023-04-26 14:52:43 INFO  Task:1244 - Task:attempt_local307641216_0001_m_000000_0 is done. And is in the process of committing
+2023-04-26 14:52:43 INFO  LocalJobRunner:634 - 
+2023-04-26 14:52:43 INFO  Task:1421 - Task attempt_local307641216_0001_m_000000_0 is allowed to commit now
+2023-04-26 14:52:43 INFO  FileOutputCommitter:609 - Saved output of task 'attempt_local307641216_0001_m_000000_0' to file:/W:/MapperProject/src/main/java/LanguageDetection/output23456789
+2023-04-26 14:52:43 INFO  LocalJobRunner:634 - map
+2023-04-26 14:52:43 INFO  Task:1380 - Task 'attempt_local307641216_0001_m_000000_0' done.
+2023-04-26 14:52:43 INFO  Task:1276 - Final Counters for attempt_local307641216_0001_m_000000_0: Counters: 15
+	File System Counters
+		FILE: Number of bytes read=327
+		FILE: Number of bytes written=613208
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Input split bytes=144
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=805306368
+	File Input Format Counters 
+		Bytes Read=128
+	File Output Format Counters 
+		Bytes Written=54
+2023-04-26 14:52:43 INFO  LocalJobRunner:277 - Finishing task: attempt_local307641216_0001_m_000000_0
+2023-04-26 14:52:43 INFO  LocalJobRunner:486 - map task executor complete.
+2023-04-26 14:52:43 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-26 14:52:43 INFO  Job:1659 - Job job_local307641216_0001 completed successfully
+2023-04-26 14:52:43 INFO  Job:1666 - Counters: 15
+	File System Counters
+		FILE: Number of bytes read=327
+		FILE: Number of bytes written=613208
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Input split bytes=144
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=805306368
+	File Input Format Counters 
+		Bytes Read=128
+	File Output Format Counters 
+		Bytes Written=54
+2023-04-26 14:56:09 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:30)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 14:56:12 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 14:56:13 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 14:56:13 INFO  JobResourceUploader:906 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/TJAVA11/.staging/job_1682482119888_0009
+2023-04-26 14:56:13 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 14:56:13 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 14:56:15 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 14:56:18 INFO  JobSubmitter:298 - Submitting tokens for job: job_1682482119888_0009
+2023-04-26 14:56:18 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 14:56:18 INFO  YARNRunner:427 - Job jar is not present. Not adding any jar to the list of resources.
+2023-04-26 14:56:18 INFO  Configuration:2845 - resource-types.xml not found
+2023-04-26 14:56:19 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2023-04-26 14:56:19 INFO  YarnClientImpl:338 - Submitted application application_1682482119888_0009
+2023-04-26 14:56:19 INFO  Job:1575 - The url to track the job: http://TJAVA1:8088/proxy/application_1682482119888_0009/
+2023-04-26 14:56:19 INFO  Job:1620 - Running job: job_1682482119888_0009
+2023-04-26 14:56:46 INFO  Job:1641 - Job job_1682482119888_0009 running in uber mode : false
+2023-04-26 14:56:46 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 14:57:21 INFO  Job:1648 -  map 51% reduce 0%
+2023-04-26 14:58:10 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-26 14:58:13 INFO  Job:1659 - Job job_1682482119888_0009 completed successfully
+2023-04-26 14:58:13 INFO  Job:1666 - Counters: 33
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=276422
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=239
+		HDFS: Number of bytes written=40
+		HDFS: Number of read operations=7
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=319172
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=79793
+		Total vcore-milliseconds taken by all map tasks=79793
+		Total megabyte-milliseconds taken by all map tasks=326832128
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Input split bytes=111
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=9885
+		CPU time spent (ms)=85559
+		Physical memory (bytes) snapshot=3885191168
+		Virtual memory (bytes) snapshot=3979870208
+		Total committed heap usage (bytes)=3168796672
+		Peak Map Physical memory (bytes)=3885191168
+		Peak Map Virtual memory (bytes)=3979870208
+	File Input Format Counters 
+		Bytes Read=128
+	File Output Format Counters 
+		Bytes Written=40
+2023-04-26 15:00:11 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:30)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 15:00:13 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 15:00:14 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 15:00:14 INFO  JobResourceUploader:906 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/TJAVA11/.staging/job_1682482119888_0010
+2023-04-26 15:00:14 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 15:00:14 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 15:00:17 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 15:00:18 INFO  JobSubmitter:298 - Submitting tokens for job: job_1682482119888_0010
+2023-04-26 15:00:18 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 15:00:18 INFO  YARNRunner:427 - Job jar is not present. Not adding any jar to the list of resources.
+2023-04-26 15:00:19 INFO  Configuration:2845 - resource-types.xml not found
+2023-04-26 15:00:19 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2023-04-26 15:00:19 INFO  YarnClientImpl:338 - Submitted application application_1682482119888_0010
+2023-04-26 15:00:19 INFO  Job:1575 - The url to track the job: http://TJAVA1:8088/proxy/application_1682482119888_0010/
+2023-04-26 15:00:19 INFO  Job:1620 - Running job: job_1682482119888_0010
+2023-04-26 15:00:46 INFO  Job:1641 - Job job_1682482119888_0010 running in uber mode : false
+2023-04-26 15:00:46 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 15:01:13 INFO  Job:1648 -  map 51% reduce 0%
+2023-04-26 15:01:51 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-26 15:01:54 INFO  Job:1659 - Job job_1682482119888_0010 completed successfully
+2023-04-26 15:01:54 INFO  Job:1666 - Counters: 33
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=276419
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=239
+		HDFS: Number of bytes written=40
+		HDFS: Number of read operations=7
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=245928
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=61482
+		Total vcore-milliseconds taken by all map tasks=61482
+		Total megabyte-milliseconds taken by all map tasks=251830272
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Input split bytes=111
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=8398
+		CPU time spent (ms)=83685
+		Physical memory (bytes) snapshot=3997925376
+		Virtual memory (bytes) snapshot=4070121472
+		Total committed heap usage (bytes)=3260022784
+		Peak Map Physical memory (bytes)=3997925376
+		Peak Map Virtual memory (bytes)=4070121472
+	File Input Format Counters 
+		Bytes Read=128
+	File Output Format Counters 
+		Bytes Written=40
+2023-04-26 15:05:48 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:29)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 15:05:57 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 15:06:01 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 15:06:01 INFO  JobResourceUploader:906 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/TJAVA11/.staging/job_1682482119888_0011
+2023-04-26 15:06:01 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 15:06:02 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 15:06:03 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 15:06:04 INFO  JobSubmitter:298 - Submitting tokens for job: job_1682482119888_0011
+2023-04-26 15:06:04 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 15:06:04 INFO  YARNRunner:427 - Job jar is not present. Not adding any jar to the list of resources.
+2023-04-26 15:06:05 INFO  Configuration:2845 - resource-types.xml not found
+2023-04-26 15:06:05 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2023-04-26 15:06:05 INFO  YarnClientImpl:338 - Submitted application application_1682482119888_0011
+2023-04-26 15:06:05 INFO  Job:1575 - The url to track the job: http://TJAVA1:8088/proxy/application_1682482119888_0011/
+2023-04-26 15:06:05 INFO  Job:1620 - Running job: job_1682482119888_0011
+2023-04-26 15:06:39 INFO  Job:1641 - Job job_1682482119888_0011 running in uber mode : false
+2023-04-26 15:06:39 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 15:07:06 INFO  Job:1648 -  map 51% reduce 0%
+2023-04-26 15:07:54 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-26 15:08:00 INFO  Job:1659 - Job job_1682482119888_0011 completed successfully
+2023-04-26 15:08:01 INFO  Job:1666 - Counters: 33
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=276424
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=233
+		HDFS: Number of bytes written=240
+		HDFS: Number of read operations=7
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=285396
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=71349
+		Total vcore-milliseconds taken by all map tasks=71349
+		Total megabyte-milliseconds taken by all map tasks=292245504
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Input split bytes=111
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=9586
+		CPU time spent (ms)=84530
+		Physical memory (bytes) snapshot=3887923200
+		Virtual memory (bytes) snapshot=3968430080
+		Total committed heap usage (bytes)=3163553792
+		Peak Map Physical memory (bytes)=3887923200
+		Peak Map Virtual memory (bytes)=3968430080
+	File Input Format Counters 
+		Bytes Read=122
+	File Output Format Counters 
+		Bytes Written=240
+2023-04-26 15:16:02 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:29)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 15:16:04 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 15:17:22 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:29)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 15:17:28 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 15:17:30 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 15:17:30 INFO  JobResourceUploader:906 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/TJAVA11/.staging/job_1682482119888_0012
+2023-04-26 15:17:30 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 15:17:31 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 15:17:33 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 15:17:35 INFO  JobSubmitter:298 - Submitting tokens for job: job_1682482119888_0012
+2023-04-26 15:17:35 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 15:17:36 INFO  YARNRunner:427 - Job jar is not present. Not adding any jar to the list of resources.
+2023-04-26 15:17:36 INFO  Configuration:2845 - resource-types.xml not found
+2023-04-26 15:17:36 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2023-04-26 15:17:37 INFO  YarnClientImpl:338 - Submitted application application_1682482119888_0012
+2023-04-26 15:17:37 INFO  Job:1575 - The url to track the job: http://TJAVA1:8088/proxy/application_1682482119888_0012/
+2023-04-26 15:17:37 INFO  Job:1620 - Running job: job_1682482119888_0012
+2023-04-26 15:18:29 INFO  Job:1641 - Job job_1682482119888_0012 running in uber mode : false
+2023-04-26 15:18:29 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 15:19:12 INFO  Job:1648 -  map 51% reduce 0%
+2023-04-26 15:19:41 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-26 15:19:42 INFO  Job:1659 - Job job_1682482119888_0012 completed successfully
+2023-04-26 15:19:43 INFO  Job:1666 - Counters: 33
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=276427
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=233
+		HDFS: Number of bytes written=240
+		HDFS: Number of read operations=7
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=268756
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=67189
+		Total vcore-milliseconds taken by all map tasks=67189
+		Total megabyte-milliseconds taken by all map tasks=275206144
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Input split bytes=111
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=7528
+		CPU time spent (ms)=57638
+		Physical memory (bytes) snapshot=3876274176
+		Virtual memory (bytes) snapshot=3960066048
+		Total committed heap usage (bytes)=3171942400
+		Peak Map Physical memory (bytes)=3876274176
+		Peak Map Virtual memory (bytes)=3960147968
+	File Input Format Counters 
+		Bytes Read=122
+	File Output Format Counters 
+		Bytes Written=240
+2023-04-26 15:21:44 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:29)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 15:21:48 WARN  MetricsConfig:136 - Cannot locate configuration: tried hadoop-metrics2-jobtracker.properties,hadoop-metrics2.properties
+2023-04-26 15:21:48 INFO  MetricsSystemImpl:378 - Scheduled Metric snapshot period at 10 second(s).
+2023-04-26 15:21:48 INFO  MetricsSystemImpl:191 - JobTracker metrics system started
+2023-04-26 15:21:50 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 15:21:50 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 15:21:50 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 15:21:51 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 15:21:52 INFO  JobSubmitter:298 - Submitting tokens for job: job_local555507583_0001
+2023-04-26 15:21:52 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 15:21:53 INFO  Job:1575 - The url to track the job: http://localhost:8080/
+2023-04-26 15:21:53 INFO  Job:1620 - Running job: job_local555507583_0001
+2023-04-26 15:21:53 INFO  LocalJobRunner:501 - OutputCommitter set in config null
+2023-04-26 15:21:54 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-26 15:21:54 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-26 15:21:54 INFO  LocalJobRunner:519 - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2023-04-26 15:21:54 INFO  LocalJobRunner:478 - Waiting for map tasks
+2023-04-26 15:21:54 INFO  LocalJobRunner:252 - Starting task: attempt_local555507583_0001_m_000000_0
+2023-04-26 15:21:54 INFO  FileOutputCommitter:142 - File Output Committer Algorithm version is 2
+2023-04-26 15:21:54 INFO  FileOutputCommitter:157 - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2023-04-26 15:21:54 INFO  Job:1641 - Job job_local555507583_0001 running in uber mode : false
+2023-04-26 15:21:54 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 15:21:55 INFO  ProcfsBasedProcessTree:178 - ProcfsBasedProcessTree currently is supported only on Linux.
+2023-04-26 15:21:55 INFO  Task:626 -  Using ResourceCalculatorProcessTree : null
+2023-04-26 15:21:55 INFO  MapTask:769 - Processing split: file:/W:/MapperProject/src/main/java/LanguageDetection/input1:0+122
+2023-04-26 15:21:55 INFO  MapperLanguageDetection:29 - Mapper Process Started....
+2023-04-26 15:21:55 INFO  LangdetectFromUnicode:119 - language detection Process started....
+2023-04-26 15:21:55 INFO  LangdetectFromUnicode:67 - word Splitting done....
+2023-04-26 15:21:55 INFO  LangdetectFromUnicode:76 - words send to LATIN
+2023-04-26 15:21:55 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 15:21:56 INFO  NgramModel:38 - convert into byte format
+2023-04-26 15:22:07 INFO  LocalJobRunner:634 - map > map
+2023-04-26 15:22:07 INFO  Job:1648 -  map 51% reduce 0%
+2023-04-26 15:22:28 INFO  NgramModel:42 - model ready
+2023-04-26 15:22:28 INFO  LATINlanguageClass:45 - ngrams counting completed.....
+2023-04-26 15:22:28 INFO  LATINlanguageClass:51 - English detected
+2023-04-26 15:22:28 INFO  LATINlanguageClass:51 - Italian detected
+2023-04-26 15:22:28 INFO  LATINlanguageClass:51 - French detected
+2023-04-26 15:22:28 INFO  LATINlanguageClass:51 - Spanish detected
+2023-04-26 15:22:28 INFO  LATINlanguageClass:51 - German detected
+2023-04-26 15:22:28 INFO  LATINlanguageClass:51 - Dutch detected
+2023-04-26 15:22:28 INFO  LangdetectFromUnicode:92 - words send to CYRILLIC
+2023-04-26 15:22:30 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 15:22:36 INFO  NgramModel:38 - convert into byte format
+2023-04-26 15:22:38 INFO  NgramModel:42 - model ready
+2023-04-26 15:22:38 INFO  CyrillicLanguageClass:40 - Detecting Language..
+2023-04-26 15:22:38 INFO  CyrillicLanguageClass:51 - ngrams counting completed.....
+2023-04-26 15:22:38 INFO  CyrillicLanguageClass:57 - Russian detected
+2023-04-26 15:22:38 INFO  LangdetectFromUnicode:82 - words send to HAN
+2023-04-26 15:22:56 INFO  HANlanguageClass:33 - Japanese Model trained
+2023-04-26 15:23:12 INFO  HANlanguageClass:33 - Chinese Model trained
+2023-04-26 15:23:41 INFO  HANlanguageClass:74 - Chinese detected
+2023-04-26 15:23:41 INFO  LangdetectFromUnicode:87 - words send to ARABIC
+2023-04-26 15:23:41 INFO  NgramModel:36 - Ngram Model Process running
+2023-04-26 15:23:42 INFO  NgramModel:38 - convert into byte format
+2023-04-26 15:23:46 INFO  NgramModel:42 - model ready
+2023-04-26 15:23:46 INFO  ARABIClanguageClass:34 - ngrams counting completed.....
+2023-04-26 15:23:46 INFO  ARABIClanguageClass:40 - Arabic detected
+2023-04-26 15:23:48 INFO  MapperLanguageDetection:35 - Result write in file
+2023-04-26 15:23:49 INFO  MapperLanguageDetection:29 - Mapper Process Started....
+2023-04-26 15:23:50 INFO  LangdetectFromUnicode:119 - language detection Process started....
+2023-04-26 15:23:50 INFO  LangdetectFromUnicode:67 - word Splitting done....
+2023-04-26 15:23:50 INFO  LangdetectFromUnicode:76 - words send to LATIN
+2023-04-26 15:23:50 INFO  LATINlanguageClass:45 - ngrams counting completed.....
+2023-04-26 15:23:50 INFO  LATINlanguageClass:51 - English detected
+2023-04-26 15:23:50 INFO  LATINlanguageClass:51 - Italian detected
+2023-04-26 15:23:50 INFO  LATINlanguageClass:51 - French detected
+2023-04-26 15:23:50 INFO  LATINlanguageClass:51 - Spanish detected
+2023-04-26 15:23:50 INFO  LATINlanguageClass:51 - German detected
+2023-04-26 15:23:50 INFO  LATINlanguageClass:51 - Dutch detected
+2023-04-26 15:23:50 INFO  LangdetectFromUnicode:92 - words send to CYRILLIC
+2023-04-26 15:23:50 INFO  CyrillicLanguageClass:40 - Detecting Language..
+2023-04-26 15:23:50 INFO  CyrillicLanguageClass:51 - ngrams counting completed.....
+2023-04-26 15:23:50 INFO  CyrillicLanguageClass:57 - Russian detected
+2023-04-26 15:23:50 INFO  LangdetectFromUnicode:82 - words send to HAN
+2023-04-26 15:23:54 INFO  HANlanguageClass:33 - Japanese Model trained
+2023-04-26 15:23:56 INFO  HANlanguageClass:33 - Chinese Model trained
+2023-04-26 15:23:56 INFO  HANlanguageClass:74 - Chinese detected
+2023-04-26 15:23:56 INFO  LangdetectFromUnicode:87 - words send to ARABIC
+2023-04-26 15:23:56 INFO  ARABIClanguageClass:34 - ngrams counting completed.....
+2023-04-26 15:23:56 INFO  ARABIClanguageClass:40 - Arabic detected
+2023-04-26 15:23:56 INFO  MapperLanguageDetection:35 - Result write in file
+2023-04-26 15:23:57 INFO  LocalJobRunner:634 - map > map
+2023-04-26 15:23:57 INFO  LocalJobRunner:634 - map
+2023-04-26 15:23:57 INFO  Task:1244 - Task:attempt_local555507583_0001_m_000000_0 is done. And is in the process of committing
+2023-04-26 15:23:57 INFO  LocalJobRunner:634 - map
+2023-04-26 15:23:57 INFO  Task:1421 - Task attempt_local555507583_0001_m_000000_0 is allowed to commit now
+2023-04-26 15:23:58 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-26 15:23:58 INFO  FileOutputCommitter:609 - Saved output of task 'attempt_local555507583_0001_m_000000_0' to file:/W:/MapperProject/src/main/java/LanguageDetection/output23456
+2023-04-26 15:23:58 INFO  LocalJobRunner:634 - map
+2023-04-26 15:23:58 INFO  Task:1380 - Task 'attempt_local555507583_0001_m_000000_0' done.
+2023-04-26 15:23:58 INFO  Task:1276 - Final Counters for attempt_local555507583_0001_m_000000_0: Counters: 15
+	File System Counters
+		FILE: Number of bytes read=302
+		FILE: Number of bytes written=613687
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Input split bytes=126
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=14241
+		Total committed heap usage (bytes)=10846470144
+	File Input Format Counters 
+		Bytes Read=122
+	File Output Format Counters 
+		Bytes Written=594
+2023-04-26 15:23:58 INFO  LocalJobRunner:277 - Finishing task: attempt_local555507583_0001_m_000000_0
+2023-04-26 15:23:59 INFO  LocalJobRunner:486 - map task executor complete.
+2023-04-26 15:24:00 INFO  Job:1659 - Job job_local555507583_0001 completed successfully
+2023-04-26 15:24:00 INFO  Job:1666 - Counters: 15
+	File System Counters
+		FILE: Number of bytes read=302
+		FILE: Number of bytes written=613687
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Input split bytes=126
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=14241
+		Total committed heap usage (bytes)=10846470144
+	File Input Format Counters 
+		Bytes Read=122
+	File Output Format Counters 
+		Bytes Written=594
+2023-04-26 15:30:29 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:29)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 15:30:45 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 15:30:50 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 15:30:50 INFO  JobResourceUploader:906 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/TJAVA11/.staging/job_1682482119888_0013
+2023-04-26 15:30:50 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 15:30:50 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 15:30:54 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 15:30:56 INFO  JobSubmitter:298 - Submitting tokens for job: job_1682482119888_0013
+2023-04-26 15:30:56 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 15:30:57 INFO  YARNRunner:427 - Job jar is not present. Not adding any jar to the list of resources.
+2023-04-26 15:30:58 INFO  Configuration:2845 - resource-types.xml not found
+2023-04-26 15:30:58 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2023-04-26 15:30:59 INFO  YarnClientImpl:338 - Submitted application application_1682482119888_0013
+2023-04-26 15:30:59 INFO  Job:1575 - The url to track the job: http://TJAVA1:8088/proxy/application_1682482119888_0013/
+2023-04-26 15:30:59 INFO  Job:1620 - Running job: job_1682482119888_0013
+2023-04-26 15:31:52 INFO  Job:1641 - Job job_1682482119888_0013 running in uber mode : false
+2023-04-26 15:31:52 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 15:32:33 INFO  Job:1648 -  map 51% reduce 0%
+2023-04-26 15:33:41 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-26 15:33:45 INFO  Job:1659 - Job job_1682482119888_0013 completed successfully
+2023-04-26 15:33:45 INFO  Job:1666 - Counters: 33
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=276426
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=233
+		HDFS: Number of bytes written=240
+		HDFS: Number of read operations=7
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=405232
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=101308
+		Total vcore-milliseconds taken by all map tasks=101308
+		Total megabyte-milliseconds taken by all map tasks=414957568
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Input split bytes=111
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=10551
+		CPU time spent (ms)=79059
+		Physical memory (bytes) snapshot=3904540672
+		Virtual memory (bytes) snapshot=4076482560
+		Total committed heap usage (bytes)=3284140032
+		Peak Map Physical memory (bytes)=3904540672
+		Peak Map Virtual memory (bytes)=4076482560
+	File Input Format Counters 
+		Bytes Read=122
+	File Output Format Counters 
+		Bytes Written=240
+2023-04-26 15:49:46 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:29)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 15:49:55 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 15:49:57 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 15:49:58 INFO  JobResourceUploader:906 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/TJAVA11/.staging/job_1682482119888_0014
+2023-04-26 15:49:58 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 15:49:58 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 15:49:59 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 15:50:01 INFO  JobSubmitter:298 - Submitting tokens for job: job_1682482119888_0014
+2023-04-26 15:50:01 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 15:50:02 INFO  YARNRunner:427 - Job jar is not present. Not adding any jar to the list of resources.
+2023-04-26 15:50:02 INFO  Configuration:2845 - resource-types.xml not found
+2023-04-26 15:50:02 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2023-04-26 15:50:03 INFO  YarnClientImpl:338 - Submitted application application_1682482119888_0014
+2023-04-26 15:50:03 INFO  Job:1575 - The url to track the job: http://TJAVA1:8088/proxy/application_1682482119888_0014/
+2023-04-26 15:50:03 INFO  Job:1620 - Running job: job_1682482119888_0014
+2023-04-26 15:50:46 INFO  Job:1641 - Job job_1682482119888_0014 running in uber mode : false
+2023-04-26 15:50:46 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 15:51:27 INFO  Job:1648 -  map 51% reduce 0%
+2023-04-26 15:52:16 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-26 15:52:21 INFO  Job:1659 - Job job_1682482119888_0014 completed successfully
+2023-04-26 15:52:22 INFO  Job:1666 - Counters: 33
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=276428
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=233
+		HDFS: Number of bytes written=240
+		HDFS: Number of read operations=7
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=344460
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=86115
+		Total vcore-milliseconds taken by all map tasks=86115
+		Total megabyte-milliseconds taken by all map tasks=352727040
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Input split bytes=111
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=10877
+		CPU time spent (ms)=72778
+		Physical memory (bytes) snapshot=3885031424
+		Virtual memory (bytes) snapshot=4036739072
+		Total committed heap usage (bytes)=3247439872
+		Peak Map Physical memory (bytes)=3908071424
+		Peak Map Virtual memory (bytes)=4059398144
+	File Input Format Counters 
+		Bytes Read=122
+	File Output Format Counters 
+		Bytes Written=240
+2023-04-26 16:00:19 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:29)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 16:00:39 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 16:00:43 INFO  JobSubmissionFiles:156 - Permissions on staging directory /tmp/hadoop-yarn/staging/TJAVA11/.staging are incorrect: rwxrwxrwx. Fixing permissions to correct value rwx------
+2023-04-26 16:00:44 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 16:00:44 INFO  JobResourceUploader:906 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/TJAVA11/.staging/job_1682482119888_0015
+2023-04-26 16:00:44 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 16:00:44 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 16:00:52 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 16:00:53 INFO  JobSubmitter:298 - Submitting tokens for job: job_1682482119888_0015
+2023-04-26 16:00:53 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 16:00:54 INFO  YARNRunner:427 - Job jar is not present. Not adding any jar to the list of resources.
+2023-04-26 16:00:54 INFO  Configuration:2845 - resource-types.xml not found
+2023-04-26 16:00:54 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2023-04-26 16:00:55 INFO  YarnClientImpl:338 - Submitted application application_1682482119888_0015
+2023-04-26 16:00:55 INFO  Job:1575 - The url to track the job: http://TJAVA1:8088/proxy/application_1682482119888_0015/
+2023-04-26 16:00:55 INFO  Job:1620 - Running job: job_1682482119888_0015
+2023-04-26 16:01:39 INFO  Job:1641 - Job job_1682482119888_0015 running in uber mode : false
+2023-04-26 16:01:39 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 16:02:14 INFO  Job:1648 -  map 51% reduce 0%
+2023-04-26 16:03:07 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-26 16:03:09 INFO  Job:1659 - Job job_1682482119888_0015 completed successfully
+2023-04-26 16:03:10 INFO  Job:1666 - Counters: 33
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=276428
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=233
+		HDFS: Number of bytes written=240
+		HDFS: Number of read operations=7
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=338540
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=84635
+		Total vcore-milliseconds taken by all map tasks=84635
+		Total megabyte-milliseconds taken by all map tasks=346664960
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Input split bytes=111
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=10174
+		CPU time spent (ms)=87810
+		Physical memory (bytes) snapshot=3998433280
+		Virtual memory (bytes) snapshot=4078772224
+		Total committed heap usage (bytes)=3287285760
+		Peak Map Physical memory (bytes)=3998433280
+		Peak Map Virtual memory (bytes)=4078866432
+	File Input Format Counters 
+		Bytes Read=122
+	File Output Format Counters 
+		Bytes Written=240
+2023-04-26 16:09:21 WARN  Shell:692 - Did not find winutils.exe: {}
+java.io.FileNotFoundException: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist -see https://wiki.apache.org/hadoop/WindowsProblems
+	at org.apache.hadoop.util.Shell.fileNotFoundException(Shell.java:547)
+	at org.apache.hadoop.util.Shell.getHadoopHomeDir(Shell.java:568)
+	at org.apache.hadoop.util.Shell.getQualifiedBin(Shell.java:591)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:688)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:79)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1712)
+	at org.apache.hadoop.security.SecurityUtil.setConfigurationInternal(SecurityUtil.java:99)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:88)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:312)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:300)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:575)
+	at org.apache.hadoop.mapreduce.task.JobContextImpl.<init>(JobContextImpl.java:72)
+	at org.apache.hadoop.mapreduce.Job.<init>(Job.java:152)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:195)
+	at LanguageDetection.Driver.main(Driver.java:29)
+Caused by: java.io.FileNotFoundException: Hadoop home directory W:\Test\hadoop-3.3.4 does not exist
+	at org.apache.hadoop.util.Shell.checkHadoopHomeInner(Shell.java:490)
+	at org.apache.hadoop.util.Shell.checkHadoopHome(Shell.java:438)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:515)
+	... 11 more
+2023-04-26 16:09:26 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at /0.0.0.0:8032
+2023-04-26 16:09:29 WARN  JobResourceUploader:149 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2023-04-26 16:09:29 INFO  JobResourceUploader:906 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/TJAVA11/.staging/job_1682482119888_0016
+2023-04-26 16:09:29 WARN  JobResourceUploader:482 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2023-04-26 16:09:30 INFO  FileInputFormat:300 - Total input files to process : 1
+2023-04-26 16:09:30 INFO  JobSubmitter:202 - number of splits:1
+2023-04-26 16:09:33 INFO  JobSubmitter:298 - Submitting tokens for job: job_1682482119888_0016
+2023-04-26 16:09:33 INFO  JobSubmitter:299 - Executing with tokens: []
+2023-04-26 16:09:33 INFO  YARNRunner:427 - Job jar is not present. Not adding any jar to the list of resources.
+2023-04-26 16:09:34 INFO  Configuration:2845 - resource-types.xml not found
+2023-04-26 16:09:34 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2023-04-26 16:09:34 INFO  YarnClientImpl:338 - Submitted application application_1682482119888_0016
+2023-04-26 16:09:34 INFO  Job:1575 - The url to track the job: http://TJAVA1:8088/proxy/application_1682482119888_0016/
+2023-04-26 16:09:34 INFO  Job:1620 - Running job: job_1682482119888_0016
+2023-04-26 16:10:07 INFO  Job:1641 - Job job_1682482119888_0016 running in uber mode : false
+2023-04-26 16:10:07 INFO  Job:1648 -  map 0% reduce 0%
+2023-04-26 16:10:49 INFO  Job:1648 -  map 51% reduce 0%
+2023-04-26 16:11:36 INFO  Job:1648 -  map 100% reduce 0%
+2023-04-26 16:11:42 INFO  Job:1659 - Job job_1682482119888_0016 completed successfully
+2023-04-26 16:11:42 INFO  Job:1666 - Counters: 33
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=276428
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=233
+		HDFS: Number of bytes written=240
+		HDFS: Number of read operations=7
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=1
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=344204
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=86051
+		Total vcore-milliseconds taken by all map tasks=86051
+		Total megabyte-milliseconds taken by all map tasks=352464896
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Input split bytes=111
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=11631
+		CPU time spent (ms)=91122
+		Physical memory (bytes) snapshot=3921133568
+		Virtual memory (bytes) snapshot=4028837888
+		Total committed heap usage (bytes)=3217031168
+		Peak Map Physical memory (bytes)=3921133568
+		Peak Map Virtual memory (bytes)=4028837888
+	File Input Format Counters 
+		Bytes Read=122
+	File Output Format Counters 
+		Bytes Written=240
