@@ -34,18 +34,6 @@ public class HANlanguageClass {
     }
 
     public String detect(String text, double percentageRelative) throws IOException, ClassNotFoundException {
-//        log.info("Model is Loading...");
-//        NgramModel model = null;
-//        try {
-//            model = NgramModel.load("W:\\Jahanvi\\IdeaProjects\\Project\\train2\\src\\main\\java\\modelHantrigramNew.ser");
-//            log.info("Model loaded!");
-//        } catch (IOException | ClassNotFoundException e) {
-//            log.error(e.getMessage());
-//        }
-//        assert model != null;
-//        Map<String, Map<String, Integer>> ngrams = model.getNgrams();
-//        if(ngrams.isEmpty())
-//            ngrams = NgramModel.load1("W:\\MapperProject\\src\\main\\java\\LanguageDetection\\Models\\modelHan.ser");
 
         Map<String, Integer> langCount = new HashMap<>();
         JiebaSegmenter segment = new JiebaSegmenter();
@@ -105,4 +93,5 @@ public class HANlanguageClass {
         return model;
     }*/
 }
+
 
