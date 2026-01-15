@@ -21,7 +21,7 @@ public class CyrillicLanguageClass {
     public String detect(String text, double percentageRelative) throws IOException, ClassNotFoundException {
 
         if(ngrams.isEmpty())
-            ngrams = NgramModel.load1("D:\\internship\\College_report\\MapperProject\\src\\main\\java\\LanguageDetection\\Models\\modelCyrillicNew.ser");
+            ngrams = NgramModel.load1("path");
         Map<String, Integer> langCount = new HashMap<>();
 
         log.info("Detecting Language..");
@@ -72,4 +72,5 @@ public class CyrillicLanguageClass {
         return model;
     }*/
 }
+
 
