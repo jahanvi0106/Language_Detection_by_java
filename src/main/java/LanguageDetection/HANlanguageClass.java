@@ -79,8 +79,8 @@ public class HANlanguageClass {
     public static String classifyHAN(String text, double percentage) {
         HANlanguageClass detector = new HANlanguageClass(3);
         try {
-            detector.train("D:\\internship\\corpus\\chinese.txt","Japanese");
-            detector.train("D:\\internship\\corpus\\japanese.txt","Chinese");
+            detector.train("path", "Japanese");
+            detector.train("path", "Chinese");
 
             String lang = detector.detect(text,percentage);
             return lang;
@@ -105,3 +105,4 @@ public class HANlanguageClass {
         return model;
     }*/
 }
+
