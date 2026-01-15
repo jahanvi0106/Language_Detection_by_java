@@ -18,7 +18,7 @@ public class ARABIClanguageClass {
 
     public String detect(String text, double percentageRelative) throws IOException, ClassNotFoundException {
         if(ngrams.isEmpty())
-            ngrams = NgramModel.load1("D:\\internship\\College_report\\MapperProject\\src\\main\\java\\LanguageDetection\\Models\\modelArabic.ser");
+            ngrams = NgramModel.load1("path");
         Map<String, Integer> langCount = new HashMap<>();
 
         String[] words = text.split("\\s+");
@@ -68,3 +68,4 @@ public class ARABIClanguageClass {
         return model;
     }*/
 }
+
