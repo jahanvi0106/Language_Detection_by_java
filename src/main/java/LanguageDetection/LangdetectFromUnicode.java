@@ -137,9 +137,10 @@ public class LangdetectFromUnicode {
         log.info("File reading");
 //        System.out.println("1 :  fileContentRead() start.");
 
-        System.out.println(fileContentRead("D:\\internship\\College_report\\MapperProject\\src\\main\\java\\LanguageDetection\\input2.txt"));
+        System.out.println(fileContentRead("path"));
 
 
         log.info("Program run successfully..!");
     }
 }
+
