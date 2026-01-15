@@ -26,7 +26,7 @@ public class LATINlanguageClass {
 //        assert model != null;
 //        Map<String, Map<String, Integer>> ngrams = model.getNgrams();
         if(ngrams.isEmpty())
-            ngrams = NgramModel.load1("D:\\internship\\College_report\\MapperProject\\src\\main\\java\\LanguageDetection\\Models\\modelLatin.ser");
+            ngrams = NgramModel.load1("path");
         Map<String, Integer> langCount = new HashMap<>();
 
         String[] words = text.split("\\s+");
@@ -76,3 +76,4 @@ public class LATINlanguageClass {
         return model;
     }*/
 }
+
